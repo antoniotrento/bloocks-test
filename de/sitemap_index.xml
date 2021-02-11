@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sitemapindex
+    xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    
+    <sitemap>
+    
+    <loc>https://bloocks.dev/de/sitemap.xml</loc>
+    
+    </sitemap>
+    
+    <sitemap>
+    
+    <loc>https://bloocks.dev/de/it/sitemap.xml</loc>
+    
+    </sitemap>
+    
+    <sitemap>
+    
+    <loc>https://bloocks.dev/de/fr/sitemap.xml</loc>
+    
+    </sitemap>
+    
+    <sitemap>
+    
+    <loc>https://bloocks.dev/de/de/sitemap.xml</loc>
+    
+    </sitemap>
+    
+</sitemapindex>
