@@ -3,10 +3,10 @@
   <channel>
     <title>Bloocks fastest websites generator ever!</title>
     <description>Build badass and fastest marketing websites with Bloocks, a static websites generator to build Ecommerce and websites on top of tecnical performaces.</description>
-    <link>https://bloocks.dev/</link>
-    <atom:link href="https://bloocks.dev/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 11 Feb 2021 22:43:06 +0100</pubDate>
-    <lastBuildDate>Thu, 11 Feb 2021 22:43:06 +0100</lastBuildDate>
+    <link>https://bloocks.github.io/bloocks-test/</link>
+    <atom:link href="https://bloocks.github.io/bloocks-test/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Thu, 11 Feb 2021 22:52:37 +0100</pubDate>
+    <lastBuildDate>Thu, 11 Feb 2021 22:52:37 +0100</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
     
       <item>
@@ -20,8 +20,8 @@
 &lt;p&gt;Flex is open sourced on GitHub and is licensed under the &lt;a href=&quot;https://opensource.org/licenses/MIT&quot;&gt;MIT License&lt;/a&gt;. Feel free to contribute to it anytime!&lt;/p&gt;
 </description>
         <pubDate>Mon, 09 Dec 2013 13:00:00 +0100</pubDate>
-        <link>https://bloocks.dev/example-post/</link>
-        <guid isPermaLink="true">https://bloocks.dev/example-post/</guid>
+        <link>https://bloocks.github.io/bloocks-test/example-post/</link>
+        <guid isPermaLink="true">https://bloocks.github.io/bloocks-test/example-post/</guid>
         
         
         <category>posts</category>
@@ -35,8 +35,8 @@
 &lt;p&gt;Example 2&lt;/p&gt;
 </description>
         <pubDate>Sun, 08 Dec 2013 13:00:00 +0100</pubDate>
-        <link>https://bloocks.dev/example-post-2/</link>
-        <guid isPermaLink="true">https://bloocks.dev/example-post-2/</guid>
+        <link>https://bloocks.github.io/bloocks-test/example-post-2/</link>
+        <guid isPermaLink="true">https://bloocks.github.io/bloocks-test/example-post-2/</guid>
         
         
         <category>posts</category>
@@ -50,8 +50,8 @@
 &lt;p&gt;Example 3&lt;/p&gt;
 </description>
         <pubDate>Sat, 07 Dec 2013 13:00:00 +0100</pubDate>
-        <link>https://bloocks.dev/example-post-3/</link>
-        <guid isPermaLink="true">https://bloocks.dev/example-post-3/</guid>
+        <link>https://bloocks.github.io/bloocks-test/example-post-3/</link>
+        <guid isPermaLink="true">https://bloocks.github.io/bloocks-test/example-post-3/</guid>
         
         
         <category>posts</category>

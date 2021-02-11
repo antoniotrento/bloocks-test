@@ -3,7 +3,7 @@
   
     
     <url>
-      <loc>https://bloocks.dev/fr/example-post/</loc>
+      <loc>https://bloocks.github.io/bloocks-test/fr/example-post/</loc>
       
         <lastmod>2013-12-09T13:00:00+01:00</lastmod>
       
@@ -18,7 +18,7 @@
   
     
     <url>
-      <loc>https://bloocks.dev/fr/example-post-2/</loc>
+      <loc>https://bloocks.github.io/bloocks-test/fr/example-post-2/</loc>
       
         <lastmod>2013-12-08T13:00:00+01:00</lastmod>
       
@@ -33,7 +33,7 @@
   
     
     <url>
-      <loc>https://bloocks.dev/fr/example-post-3/</loc>
+      <loc>https://bloocks.github.io/bloocks-test/fr/example-post-3/</loc>
       
         <lastmod>2013-12-07T13:00:00+01:00</lastmod>
       
@@ -49,24 +49,9 @@
   
     
     <url>
-      <loc>https://bloocks.dev/fr/404.html</loc>
+      <loc>https://bloocks.github.io/bloocks-test/fr/404.html</loc>
       
-        <lastmod>2021-02-11T22:43:18+01:00</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>https://bloocks.dev/fr/blog/</loc>
-      
-        <lastmod>2021-02-11T22:43:18+01:00</lastmod>
+        <lastmod>2021-02-11T22:52:42+01:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -79,26 +64,9 @@
   
     
     <url>
-      <loc>https://bloocks.dev/fr/contact/</loc>
+      <loc>https://bloocks.github.io/bloocks-test/fr/blog/</loc>
       
-        <lastmod>2021-02-11T22:43:18+01:00</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-  
-    
-    <url>
-      <loc>https://bloocks.dev/fr/gallery/</loc>
-      
-        <lastmod>2021-02-11T22:43:18+01:00</lastmod>
+        <lastmod>2021-02-11T22:52:42+01:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -111,24 +79,9 @@
   
     
     <url>
-      <loc>https://bloocks.dev/fr/</loc>
+      <loc>https://bloocks.github.io/bloocks-test/fr/contact/</loc>
       
-        <lastmod>2021-02-11T22:43:18+01:00</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>https://bloocks.dev/fr/nanogallery/</loc>
-      
-        <lastmod>2021-02-11T22:43:18+01:00</lastmod>
+        <lastmod>2021-02-11T22:52:42+01:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -143,9 +96,56 @@
   
     
     <url>
-      <loc>https://bloocks.dev/fr/css/screen.css</loc>
+      <loc>https://bloocks.github.io/bloocks-test/fr/gallery/</loc>
       
-        <lastmod>2021-02-11T22:43:18+01:00</lastmod>
+        <lastmod>2021-02-11T22:52:42+01:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>https://bloocks.github.io/bloocks-test/fr/</loc>
+      
+        <lastmod>2021-02-11T22:52:42+01:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>https://bloocks.github.io/bloocks-test/fr/nanogallery/</loc>
+      
+        <lastmod>2021-02-11T22:52:42+01:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+  
+    
+    <url>
+      <loc>https://bloocks.github.io/bloocks-test/fr/css/screen.css</loc>
+      
+        <lastmod>2021-02-11T22:52:42+01:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -162,24 +162,9 @@
   
     
     <url>
-      <loc>https://bloocks.dev/fr/boutique/</loc>
+      <loc>https://bloocks.github.io/bloocks-test/fr/boutique/</loc>
       
-        <lastmod>2021-02-11T22:43:18+01:00</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>https://bloocks.dev/fr/subscribe/</loc>
-      
-        <lastmod>2021-02-11T22:43:18+01:00</lastmod>
+        <lastmod>2021-02-11T22:52:42+01:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -192,24 +177,9 @@
   
     
     <url>
-      <loc>https://bloocks.dev/fr/terms-and-conditions/</loc>
+      <loc>https://bloocks.github.io/bloocks-test/fr/subscribe/</loc>
       
-        <lastmod>2021-02-11T22:43:18+01:00</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>https://bloocks.dev/fr/prov/</loc>
-      
-        <lastmod>2021-02-11T22:43:18+01:00</lastmod>
+        <lastmod>2021-02-11T22:52:42+01:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -222,40 +192,9 @@
   
     
     <url>
-      <loc>https://bloocks.dev/fr/thank-you-formcake/</loc>
+      <loc>https://bloocks.github.io/bloocks-test/fr/terms-and-conditions/</loc>
       
-        <lastmod>2021-02-11T22:43:18+01:00</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>https://bloocks.dev/fr/css/screen.css.map</loc>
-      
-        <lastmod>2021-02-11T22:43:18+01:00</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-  
-    
-    <url>
-      <loc>https://bloocks.dev/fr/products/deer/</loc>
-      
-        <lastmod>2021-02-11T22:43:18+01:00</lastmod>
+        <lastmod>2021-02-11T22:52:42+01:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -268,24 +207,9 @@
   
     
     <url>
-      <loc>https://bloocks.dev/fr/products/elephant/</loc>
+      <loc>https://bloocks.github.io/bloocks-test/fr/prov/</loc>
       
-        <lastmod>2021-02-11T22:43:18+01:00</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>https://bloocks.dev/fr/products/giraffe/</loc>
-      
-        <lastmod>2021-02-11T22:43:18+01:00</lastmod>
+        <lastmod>2021-02-11T22:52:42+01:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -298,24 +222,9 @@
   
     
     <url>
-      <loc>https://bloocks.dev/fr/products/hog/</loc>
+      <loc>https://bloocks.github.io/bloocks-test/fr/thank-you-formcake/</loc>
       
-        <lastmod>2021-02-11T22:43:18+01:00</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>https://bloocks.dev/fr/products/lion/</loc>
-      
-        <lastmod>2021-02-11T22:43:18+01:00</lastmod>
+        <lastmod>2021-02-11T22:52:42+01:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -328,9 +237,100 @@
   
     
     <url>
-      <loc>https://bloocks.dev/fr/products/tiger/</loc>
+      <loc>https://bloocks.github.io/bloocks-test/fr/css/screen.css.map</loc>
       
-        <lastmod>2021-02-11T22:43:18+01:00</lastmod>
+        <lastmod>2021-02-11T22:52:42+01:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+  
+    
+    <url>
+      <loc>https://bloocks.github.io/bloocks-test/fr/products/deer/</loc>
+      
+        <lastmod>2021-02-11T22:52:42+01:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>https://bloocks.github.io/bloocks-test/fr/products/elephant/</loc>
+      
+        <lastmod>2021-02-11T22:52:42+01:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>https://bloocks.github.io/bloocks-test/fr/products/giraffe/</loc>
+      
+        <lastmod>2021-02-11T22:52:42+01:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>https://bloocks.github.io/bloocks-test/fr/products/hog/</loc>
+      
+        <lastmod>2021-02-11T22:52:42+01:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>https://bloocks.github.io/bloocks-test/fr/products/lion/</loc>
+      
+        <lastmod>2021-02-11T22:52:42+01:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>https://bloocks.github.io/bloocks-test/fr/products/tiger/</loc>
+      
+        <lastmod>2021-02-11T22:52:42+01:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
