@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: http://antoniotrento.github.io/bloocks-test/sitemap_index.xml
+Sitemap: https://antoniotrento.github.io/bloocks-test/sitemap_index.xml
