@@ -70,7 +70,7 @@
       "headline": "test",
       "keywords": "testing tags, layout extended, work hard",
       "description": "test description",
-      "articleBody": "\n{% \n  include bloocks/hero/tailblocks/full-text.html\n  title='Unlawful Markdown advantages'\n  titletype='h1'\n  contentclass='z-40'\n  content='testing out'\n  topbackground= 'w-full'\n  topclass= 'text-gray-300 absolute'\n%}\n\n      \n              \n              \n              \n              \n              \n              \n              \n              \n              \n              \n      \n\n{% include bloocks/components/form/subscribe/inline-subscribe.html %}\n{% \n  include bloocks/hero/tailblocks/full-text.html\n  title='Unlawful Markdown advantages'\n  titletype='h1'\n  contentclass='z-40'\n  content='testing out'\n  topbackground= 'w-full'\n  topclass= 'text-gray-300 absolute'\n%}\n\n\n      \n              \n              \n              \n              \n              \n              \n              \n              \n              \n              \n      \n\n{% capture fulltextcta %}\n{{ page.url }}\n\n  {% include bloocks/components/button.html\n    id='test'\n    content='Button 1'\n    href='/'\n    target='blank'\n    icon='heroicons/outline/puzzle'\n    animation='ping'\n    iconclass='flex-shrink-0 h-6 w-6 text-grey-100'\n  %}\n  {% include bloocks/components/button.html\n    type='linkaltbutton'\n    content='Button 2'\n    otherclass='ml-4'\n    href='/roadmap'\n    target='blank'\n  %}\n       \n{% endcapture %}\n{% \n  include bloocks/hero/tailblocks/full-text.html\n  bloock='full-text-blackbg'\n  title=site.baseurl_root\n  titlecolor='text-gray-200'\n  content=fulltextcta\n  image='what-inside/ecommerce-tools.svg'\n  separator='scrape' \n  sepcolor='7185a6' \n  sepseccolor='55647d'\n  seprgb='rgb(255,255,255)'\n%}\n\n\n\n{% for lang in site.languages %}\n\n  {% t langs.{{ lang }} %}\n  \n  {% assign next = forloop.index | plus: 1 %}\n  \n  {% if forloop.last != true and site.languages[forloop.index] != site.lang or site.languages[forloop.index] == site.lang and next  &bull; \n  {% endif %}\n  \n\n{% endfor %}\n\n\n{% for lang in site.languages %}\n  {% if forloop.index0 == 0 %}\n    {{ lang }}\n  {% else %}\n    |{{ lang }}\n  {% endif %}\n{% endfor %}\n\n{% capture pcta %}\n{% include bloocks/components/paragraph.html\n  content='This bloocks have an image right and the possibility to put a svg separator at the bottom.'\n%} \n{% endcapture %}\n{%\n  include bloocks/hero/custom/full-img-smart.html\n  title='Unlawful Markdown advantages'\n  titletype='h1'\n  contentclass='z-40'\n  content=pcta\n  image='roadmap/bloocks-launch.svg'\n  imgalt='bloocks image'\n  imgid='smart hero'\n  imgposition='right'\n  separator='scrape'\n  separatorclass='2xl:-mt-48 xl:-mt-40 lg:-mt-32 md:-mt-24 sm:-mt-20 -mt-14'\n  sepcolor='7185a6'\n  sepseccolor='55647d'\n  seprgb='rgb(0,0,0)'\n%}\n{% capture fulltextcta %}\nWas created to be able, without being a genius of web development, \n  to create front end interfaces that exploit the same technologies that the big names in industry use.\n\n\n  {% include bloocks/components/button.html\n    id='test'\n    content='Button 1'\n    href='/'\n    target='blank'\n    icon='heroicons/outline/puzzle'\n    animation='ping'\n    iconclass='flex-shrink-0 h-6 w-6 text-grey-100'\n  %}\n  {% include bloocks/components/button.html\n    type='linkaltbutton'\n    content='Button 2'\n    otherclass='ml-4'\n    href='/roadmap'\n    target='blank'\n  %}\n       \n{% endcapture %}\n{% \n  include bloocks/hero/tailblocks/full-text.html\n  bloock='full-text-blackbg'\n  title='Unlawful advantages in the eyes of competitors'\n  titlecolor='text-gray-200'\n  content=fulltextcta\n  image='what-inside/ecommerce-tools.svg'\n  separator='scrape' \n  sepcolor='7185a6' \n  sepseccolor='55647d'\n  seprgb='rgb(255,255,255)'\n%}\n{% capture content1 %}\n{% include bloocks/components/paragraph.html\n  content='This bloocks have an image left and class flex-col-reverse to invert the image position in mobile view. It use the big-img-left from _data/bloocks.yml template file'\n%}\n\n  {% include bloocks/components/button.html\n    id='test'\n    content='Button 1'\n    href='/'\n    target='blank'\n    icon='heroicons/outline/puzzle'\n    animation='ping'\n    iconclass='flex-shrink-0 h-6 w-6 text-grey-100'\n  %}\n  {% include bloocks/components/button.html\n    type='linkaltbutton'\n    content='Button 2'\n    otherclass='ml-4'\n    href='/roadmap'\n    target='blank'\n  %}\n       \n{% endcapture %}\n{% \n  include bloocks/hero/tailblocks/img-left.html \n  bloock='big-img-left'\n  title='The img-left bloock'\n  titletype='h1'\n  titlehtml='h2'\n  titledata-aos='fade-right'\n  content=content1\n  image='what-inside/ecommerce-tools.svg'\n%}\n{% capture content2 %} \nCopper mug try-hard pitchfork pour-over freegan heirloom neutra air plant cold-pressed tacos poke beard tote bag. Heirloom echo park mlkshk tote bag selvage hot chicken authentic tumeric truffaut hexagon try-hard chambray.\n\n  {% include bloocks/components/button.html\n    id='test'\n    content='Button 1'\n    href='/'\n    target='blank'\n    icon='heroicons/outline/puzzle'\n    animation='ping'\n    iconclass='flex-shrink-0 h-6 w-6 text-grey-100'\n  %}\n  {% include bloocks/components/button.html\n    type='linkaltbutton'\n    content='Button 2'\n    otherclass='ml-4'\n    href='/roadmap'\n    target='blank'\n  %}\n       \n{% endcapture %}\n{% \n  include bloocks/hero/tailblocks/img-left.html \n  bloock='big-img-left'\n  title='The img-left with imgtag bloock'\n  titletype='h1'\n  titlehtml='h2'\n  titledata-aos='fade-down'\n  content=content2\n  image='macbook-mockup.png'\n  imgalt='bloocks image'\n  imgid='bloocksimg'\n  imgdata-aos='fade-right'\n%}\n\n{% capture centercta %} \n{% include bloocks/components/paragraph.html\n  content='This bloocks have an image left and class flex-col-reverse to invert the image position in mobile view. It use the big-img-left from _data/bloocks.yml template file'\n%}\n  \n  {% include bloocks/components/button.html\n    id='test'\n    content='Button 1'\n    href='/'\n    target='blank'\n    icon='heroicons/outline/puzzle'\n    animation='ping'\n    iconclass='flex-shrink-0 h-6 w-6 text-grey-100'\n  %}\n  {% include bloocks/components/button.html\n    type='linkaltbutton'\n    content='Button 2'\n    otherclass='ml-4'\n    href='/roadmap'\n    target='blank'\n  %}\n       \n{% endcapture %}\n{% \n  include bloocks/hero/tailblocks/img-top-center.html\n  title='The img-top-center with imgtag bloock'\n  titledata-aos='fade-down'\n  content=centercta\n  image='macbook-mockup.png'\n  imgalt='bloocks image'\n  imgid='bloocksimg'\n  imgdata-aos='fade-right'\n%}\n\n\n\n\n\n  \n      Write your bloock\n      Bloocks is made to build your pages in blocks, \n          quick and simple tools pre-coded; just write your requests, and see bloocks building for you.\n      \n  \n  \n    \n      \n          \n              \n          \n          \n            \n            &#60;!-- Create a sub bloock that will be contained in the main Bloock --&#62;\n            &#123;&#37; capture your_sub_bloock &#37;&#125; \n            &nbsp;&nbsp;&#123;&#37; include bloocks/components/your-bloock-component.html\n            &nbsp;&nbsp;&nbsp;&nbsp;content= 'This a content in the sub_bloock'\n            &nbsp;&nbsp;&#37;&#125;\n            &nbsp;&nbsp;&#123;&#37;include bloocks/components/button.html\n            &nbsp;&nbsp;&nbsp;&nbsp;id= 'test'\n            &nbsp;&nbsp;&nbsp;&nbsp;content= 'Button CTA'\n            &nbsp;&nbsp;&nbsp;&nbsp;href= 'link_of_CTA.com'\n            &nbsp;&nbsp;&nbsp;&nbsp;target= 'blank'\n            &nbsp;&nbsp;&nbsp;&nbsp;icon= 'path/of-the-button/icon'\n            &nbsp;&nbsp;&nbsp;&nbsp;animation= 'ping'\n            &nbsp;&nbsp;&#37;&#125;     \n            &#123;&#37; endcapture &#37;&#125;\n            &nbsp;\n            &#60;!-- The main Bloock that render a part of your web page --&#62;\n            &#123;&#37; \n            &nbsp;&nbsp;include bloocks/hero/tailblocks/img-top-center.html\n            &nbsp;&nbsp;&nbsp;&nbsp;title= 'The title of the bloock'\n            &nbsp;&nbsp;&nbsp;&nbsp;content= your_sub_bloock\n            &nbsp;&nbsp;&nbsp;&nbsp;image= 'macbook-mockup.png'\n            &nbsp;&nbsp;&nbsp;&nbsp;imgalt= 'bloocks image'\n            &nbsp;&nbsp;&nbsp;&nbsp;imgid= 'bloocksimg'\n            &#123;&#37;\n          \n      \n    \n  \n\n\n\n{% capture feature-right-content %} \n{% include bloocks/components/paragraph.html\n  type='p-inverse'\n  content='This bloocks have an image left and class flex-col-reverse to invert the image position in mobile view. It use the big-img-left from _data/bloocks.yml template file'\n%}\n  \n  {% include bloocks/components/button.html\n    id='test'\n    content='Button 1'\n    href='/'\n    target='blank'\n    icon='heroicons/outline/puzzle'\n    animation='ping'\n    iconclass='flex-shrink-0 h-6 w-6 text-grey-100'\n  %}\n  {% include bloocks/components/button.html\n    type='linkaltbutton'\n    content='Button 2'\n    otherclass='ml-4'\n    href='/roadmap'\n    target='blank'\n  %}\n       \n{% endcapture %}\n{% \n  include bloocks/feature/devdojo/feature-hero-mac.html\n  bloock=\"back-bg-feature-hero-mac\"\n  title='The feature hero mac with img left'\n  titledata-aos='fade-down'\n  contentclass='z-40'\n  topotherclass='pb-20'\n  content=feature-right-content\n  image='macbook-mockup.png'\n  imgalt='bloocks image'\n  imgid='hero mac'\n  imgotherclass='overflow-x-hidden -ml-12'\n  imgdata-aos='fade-right'\n  imgposition='left'\n  macontainer='false'\n  separator='scrape' \n  sepcolor='7185a6' \n  sepseccolor='55647d'\n  seprgb='rgb(255,255,255)'\n%}\n\n\n\n{% capture feature-left-content %} \n{% include bloocks/components/paragraph.html\n  type='p-inverse'\n  content='This bloocks have an image left and class flex-col-reverse to invert the image position in mobile view. It use the big-img-left from _data/bloocks.yml template file'\n%}\n  \n  {% include bloocks/components/button.html\n    id='test'\n    content='Button 1'\n    href='/'\n    target='blank'\n    icon='heroicons/outline/puzzle'\n    animation='ping'\n    iconclass='flex-shrink-0 h-6 w-6 text-grey-100'\n  %}\n  {% include bloocks/components/button.html\n    type='linkaltbutton'\n    content='Button 2'\n    otherclass='ml-4'\n    href='/roadmap'\n    target='blank'\n  %}\n       \n{% endcapture %}\n{% \n  include bloocks/feature/devdojo/feature-hero-mac.html\n  title='The feature hero mac with img left'\n  titledata-aos='fade-down'\n  content=feature-left-content\n  image='what-inside/ecommerce-tools.svg'\n  imgalt='bloocks image'\n  imgid='bloocksimg'\n  imgdata-aos='fade-right'\n  macontainer='false'\n%}\n\n\n\n\n  \n      \n\n          \n      \n  \n  \n      Write down all bloocks for creating your page\n          \n      After you learn how to build a bloock, you'll be able to write down a series of bloocks. That will make your web page, fast!\n      \n  \n\n\n  {% include bloocks/separators/scrape.html\ncolor='7185a6' \nseccolor='55647d'\nrgb='rgb(255,255,255)'\nsepclass=include.sepclass\n  %}\n\n\n\n{% capture modalcta %}\n{% include bloocks/components/paragraph.html\n  content='This bloocks have an image right and the possibility to put a svg separator at the bottom.'\n%}\n\n  {% include bloocks/components/button.html\n    id='test'\n    content='Button 1'\n    href='/'\n    target='blank'\n    icon='heroicons/outline/puzzle'\n    animation='ping'\n    iconclass='flex-shrink-0 h-6 w-6 text-grey-100'\n  %}\n  {% include bloocks/components/button.html\n    type='linkaltbutton'\n    content='Button 2'\n    otherclass='mt-5 ml-0 sm:mt-0 sm:ml-5 close-treact-popup'\n  %}\n      \n{% endcapture %}\n{% comment %}\n{% \n  include bloocks/modal/timer.html\n  title='Unlawful Markdown advantages'\n  titletype='h1'\n  contentclass='z-40'\n  content=modalcta\n  image='what-inside/ecommerce-tools.svg'\n  imgalt='bloocks image'\n  imgid='smart hero'\n  imgposition='right'\n%}  {% endcomment %}\n\n\n\n  \n    \n        {% for product in site.products %}\n        \n          {% comment %}{% include store/product-styles.html product=product %}{% endcomment %}\n            \n                \n            \n            \n                {{ product.name }}\n                \n                    {{ product.description_markdown | truncate: 45 | markdownify }}\n                \n                Button\n                ${{ product.price }}\n            \n        \n        {% endfor %}\n\n    \n  \n\n\n\n{% for language in site.languages %}\n\n  {% assign title = \"languages.\" | append: language %}\n  {% if forloop.first %}\n    \n      {% t {{title}} %}\n    \n  {% else %}\n    \n      {% t {{title}} %}\n    \n  {% endif %}\n{% endfor %}\n\n    \n        \n      \n        {% for product in site.products %}\n        \n          {% comment %}{% include store/product-styles.html product=product %}{% endcomment %}\n          \n            \n          \n          \n            {{ product.category }}\n            {{ product.name }}\n            ${{ product.price }}\n          \n        \n        {% endfor %}\n      \n    \n  \n\n\n  \n    \n      \n  {% for product in site.products %}\n        \n            \n                \n                    \n                        \n                            \n                        \n                    \n                \n                \n                    Detached house • 5y old\n                    $750,000\n                    742 Evergreen Terrace\n                \n                \n                    \n                        \n                            \n                        \n                        3 Bedrooms\n                    \n                    \n                        \n                            \n                        \n                        2 Bathrooms\n                    \n                \n                \n                    Realtor\n                    \n                        \n                        \n                        \n                            Tiffany Heffner\n                            (555) 555-4321\n                        \n                    \n                \n            \n        \n\n{% endfor %}\n\n\n\n\n\n\n    \n      \n  {% for product in site.products %}\n\n    \n        \n            \n        \n     \n       \n        \n          \n            New\n          \n          \n        2 baths  &bull; 3 rooms\n        \n        \n        \n        A random Title\n     \n      \n        $1800\n           /wk\n      \n      \n        4/5 ratings \n        (based on 234 ratings)\n        \n      \n     \n      \n    \n\n    {% endfor %}\n\n\n\n\n{% for file in site.static_files %}\n{{ file.path }} last edited at {{ file.modified_time | date:\"%H:%m\" }} with extname {{ file.extname }}\n{% endfor %}",
+      "articleBody": "\n{% \n  include bloocks/hero/tailblocks/full-text.html\n  title='Unlawful Markdown advantages'\n  titletype='h1'\n  contentclass='z-40'\n  content='testing out'\n  topbackground= 'w-full'\n  topclass= 'text-gray-300 absolute'\n%}\n\n      \n              \n              \n              \n              \n              \n              \n              \n              \n              \n              \n      \n\n{% include bloocks/components/form/subscribe/inline-subscribe.html %}\n{% \n  include bloocks/hero/tailblocks/full-text.html\n  title='Unlawful Markdown advantages'\n  titletype='h1'\n  contentclass='z-40'\n  content='testing out'\n  topbackground= 'w-full'\n  topclass= 'text-gray-300 absolute'\n%}\n\n\n      \n              \n              \n              \n              \n              \n              \n              \n              \n              \n              \n      \n\n{% capture fulltextcta %}\n{{ page.url }}\n\n  {% include bloocks/components/button.html\n    id='test'\n    content='Button 1'\n    href='/'\n    target='blank'\n    icon='heroicons/outline/puzzle'\n    animation='ping'\n    iconclass='flex-shrink-0 h-6 w-6 text-grey-100'\n  %}\n  {% include bloocks/components/button.html\n    type='linkaltbutton'\n    content='Button 2'\n    otherclass='ml-4'\n    href='/roadmap'\n    target='blank'\n  %}\n       \n{% endcapture %}\n{% \n  include bloocks/hero/tailblocks/full-text.html\n  bloock='full-text-blackbg'\n  title=site.baseurl_root\n  titlecolor='text-gray-200'\n  content=fulltextcta\n  image='what-inside/ecommerce-tools.svg'\n  separator='scrape' \n  sepcolor='7185a6' \n  sepseccolor='55647d'\n  seprgb='rgb(255,255,255)'\n%}\n\n\n\n{% for lang in site.languages %}\n\n  {% t langs.{{ lang }} %}\n  \n  {% assign next = forloop.index | plus: 1 %}\n  \n  {% if forloop.last != true and site.languages[forloop.index] != site.lang or site.languages[forloop.index] == site.lang and next  &bull; \n  {% endif %}\n  \n\n{% endfor %}\n\n\n{% for lang in site.languages %}\n  {% if forloop.index0 == 0 %}\n    {{ lang }}\n  {% else %}\n    |{{ lang }}\n  {% endif %}\n{% endfor %}\n\n{% capture pcta %}\n{% include bloocks/components/paragraph.html\n  content='This bloocks have an image right and the possibility to put a svg separator at the bottom.'\n%} \n{% endcapture %}\n{%\n  include bloocks/hero/custom/full-img-smart.html\n  title='Unlawful Markdown advantages'\n  titletype='h1'\n  contentclass='z-40'\n  content=pcta\n  image='roadmap/bloocks-launch.svg'\n  imgalt='bloocks image'\n  imgid='smart hero'\n  imgposition='right'\n  separator='scrape'\n  separatorclass='2xl:-mt-48 xl:-mt-40 lg:-mt-32 md:-mt-24 sm:-mt-20 -mt-14'\n  sepcolor='7185a6'\n  sepseccolor='55647d'\n  seprgb='rgb(0,0,0)'\n%}\n{% capture fulltextcta %}\nWas created to be able, without being a genius of web development, \n  to create front end interfaces that exploit the same technologies that the big names in industry use.\n\n\n  {% include bloocks/components/button.html\n    id='test'\n    content='Button 1'\n    href='/'\n    target='blank'\n    icon='heroicons/outline/puzzle'\n    animation='ping'\n    iconclass='flex-shrink-0 h-6 w-6 text-grey-100'\n  %}\n  {% include bloocks/components/button.html\n    type='linkaltbutton'\n    content='Button 2'\n    otherclass='ml-4'\n    href='/roadmap'\n    target='blank'\n  %}\n       \n{% endcapture %}\n{% \n  include bloocks/hero/tailblocks/full-text.html\n  bloock='full-text-blackbg'\n  title='Unlawful advantages in the eyes of competitors'\n  titlecolor='text-gray-200'\n  content=fulltextcta\n  image='what-inside/ecommerce-tools.svg'\n  separator='scrape' \n  sepcolor='7185a6' \n  sepseccolor='55647d'\n  seprgb='rgb(255,255,255)'\n%}\n{% capture content1 %}\n{% include bloocks/components/paragraph.html\n  content='This bloocks have an image left and class flex-col-reverse to invert the image position in mobile view. It use the big-img-left from _data/bloocks.yml template file'\n%}\n\n  {% include bloocks/components/button.html\n    id='test'\n    content='Button 1'\n    href='/'\n    target='blank'\n    icon='heroicons/outline/puzzle'\n    animation='ping'\n    iconclass='flex-shrink-0 h-6 w-6 text-grey-100'\n  %}\n  {% include bloocks/components/button.html\n    type='linkaltbutton'\n    content='Button 2'\n    otherclass='ml-4'\n    href='/roadmap'\n    target='blank'\n  %}\n       \n{% endcapture %}\n{% \n  include bloocks/hero/tailblocks/img-left.html \n  bloock='big-img-left'\n  title='The img-left bloock'\n  titletype='h1'\n  titlehtml='h2'\n  titledata-aos='fade-right'\n  content=content1\n  image='what-inside/ecommerce-tools.svg'\n%}\n{% capture content2 %} \nCopper mug try-hard pitchfork pour-over freegan heirloom neutra air plant cold-pressed tacos poke beard tote bag. Heirloom echo park mlkshk tote bag selvage hot chicken authentic tumeric truffaut hexagon try-hard chambray.\n\n  {% include bloocks/components/button.html\n    id='test'\n    content='Button 1'\n    href='/'\n    target='blank'\n    icon='heroicons/outline/puzzle'\n    animation='ping'\n    iconclass='flex-shrink-0 h-6 w-6 text-grey-100'\n  %}\n  {% include bloocks/components/button.html\n    type='linkaltbutton'\n    content='Button 2'\n    otherclass='ml-4'\n    href='/roadmap'\n    target='blank'\n  %}\n       \n{% endcapture %}\n{% \n  include bloocks/hero/tailblocks/img-left.html \n  bloock='big-img-left'\n  title='The img-left with imgtag bloock'\n  titletype='h1'\n  titlehtml='h2'\n  titledata-aos='fade-down'\n  content=content2\n  image='bloocks-macbook-mockup.png'\n  imgalt='bloocks image'\n  imgid='bloocksimg'\n  imgdata-aos='fade-right'\n%}\n\n{% capture centercta %} \n{% include bloocks/components/paragraph.html\n  content='This bloocks have an image left and class flex-col-reverse to invert the image position in mobile view. It use the big-img-left from _data/bloocks.yml template file'\n%}\n  \n  {% include bloocks/components/button.html\n    id='test'\n    content='Button 1'\n    href='/'\n    target='blank'\n    icon='heroicons/outline/puzzle'\n    animation='ping'\n    iconclass='flex-shrink-0 h-6 w-6 text-grey-100'\n  %}\n  {% include bloocks/components/button.html\n    type='linkaltbutton'\n    content='Button 2'\n    otherclass='ml-4'\n    href='/roadmap'\n    target='blank'\n  %}\n       \n{% endcapture %}\n{% \n  include bloocks/hero/tailblocks/img-top-center.html\n  title='The img-top-center with imgtag bloock'\n  titledata-aos='fade-down'\n  content=centercta\n  image='bloocks-macbook-mockup.png'\n  imgalt='bloocks image'\n  imgid='bloocksimg'\n  imgdata-aos='fade-right'\n%}\n\n\n\n\n\n  \n      Write your bloock\n      Bloocks is made to build your pages in blocks, \n          quick and simple tools pre-coded; just write your requests, and see bloocks building for you.\n      \n  \n  \n    \n      \n          \n              \n          \n          \n            \n            &#60;!-- Create a sub bloock that will be contained in the main Bloock --&#62;\n            &#123;&#37; capture your_sub_bloock &#37;&#125; \n            &nbsp;&nbsp;&#123;&#37; include bloocks/components/your-bloock-component.html\n            &nbsp;&nbsp;&nbsp;&nbsp;content= 'This a content in the sub_bloock'\n            &nbsp;&nbsp;&#37;&#125;\n            &nbsp;&nbsp;&#123;&#37;include bloocks/components/button.html\n            &nbsp;&nbsp;&nbsp;&nbsp;id= 'test'\n            &nbsp;&nbsp;&nbsp;&nbsp;content= 'Button CTA'\n            &nbsp;&nbsp;&nbsp;&nbsp;href= 'link_of_CTA.com'\n            &nbsp;&nbsp;&nbsp;&nbsp;target= 'blank'\n            &nbsp;&nbsp;&nbsp;&nbsp;icon= 'path/of-the-button/icon'\n            &nbsp;&nbsp;&nbsp;&nbsp;animation= 'ping'\n            &nbsp;&nbsp;&#37;&#125;     \n            &#123;&#37; endcapture &#37;&#125;\n            &nbsp;\n            &#60;!-- The main Bloock that render a part of your web page --&#62;\n            &#123;&#37; \n            &nbsp;&nbsp;include bloocks/hero/tailblocks/img-top-center.html\n            &nbsp;&nbsp;&nbsp;&nbsp;title= 'The title of the bloock'\n            &nbsp;&nbsp;&nbsp;&nbsp;content= your_sub_bloock\n            &nbsp;&nbsp;&nbsp;&nbsp;image= 'macbook-mockup.png'\n            &nbsp;&nbsp;&nbsp;&nbsp;imgalt= 'bloocks image'\n            &nbsp;&nbsp;&nbsp;&nbsp;imgid= 'bloocksimg'\n            &#123;&#37;\n          \n      \n    \n  \n\n\n\n{% capture feature-right-content %} \n{% include bloocks/components/paragraph.html\n  type='p-inverse'\n  content='This bloocks have an image left and class flex-col-reverse to invert the image position in mobile view. It use the big-img-left from _data/bloocks.yml template file'\n%}\n  \n  {% include bloocks/components/button.html\n    id='test'\n    content='Button 1'\n    href='/'\n    target='blank'\n    icon='heroicons/outline/puzzle'\n    animation='ping'\n    iconclass='flex-shrink-0 h-6 w-6 text-grey-100'\n  %}\n  {% include bloocks/components/button.html\n    type='linkaltbutton'\n    content='Button 2'\n    otherclass='ml-4'\n    href='/roadmap'\n    target='blank'\n  %}\n       \n{% endcapture %}\n{% \n  include bloocks/feature/devdojo/feature-hero-mac.html\n  bloock=\"back-bg-feature-hero-mac\"\n  title='The feature hero mac with img left'\n  titledata-aos='fade-down'\n  contentclass='z-40'\n  topotherclass='pb-20'\n  content=feature-right-content\n  image='macbook-mockup.png'\n  imgalt='bloocks image'\n  imgid='hero mac'\n  imgotherclass='overflow-x-hidden -ml-12'\n  imgdata-aos='fade-right'\n  imgposition='left'\n  macontainer='false'\n  separator='scrape' \n  sepcolor='7185a6' \n  sepseccolor='55647d'\n  seprgb='rgb(255,255,255)'\n%}\n\n\n\n{% capture feature-left-content %} \n{% include bloocks/components/paragraph.html\n  type='p-inverse'\n  content='This bloocks have an image left and class flex-col-reverse to invert the image position in mobile view. It use the big-img-left from _data/bloocks.yml template file'\n%}\n  \n  {% include bloocks/components/button.html\n    id='test'\n    content='Button 1'\n    href='/'\n    target='blank'\n    icon='heroicons/outline/puzzle'\n    animation='ping'\n    iconclass='flex-shrink-0 h-6 w-6 text-grey-100'\n  %}\n  {% include bloocks/components/button.html\n    type='linkaltbutton'\n    content='Button 2'\n    otherclass='ml-4'\n    href='/roadmap'\n    target='blank'\n  %}\n       \n{% endcapture %}\n{% \n  include bloocks/feature/devdojo/feature-hero-mac.html\n  title='The feature hero mac with img left'\n  titledata-aos='fade-down'\n  content=feature-left-content\n  image='what-inside/ecommerce-tools.svg'\n  imgalt='bloocks image'\n  imgid='bloocksimg'\n  imgdata-aos='fade-right'\n  macontainer='false'\n%}\n\n\n\n\n  \n      \n\n          \n      \n  \n  \n      Write down all bloocks for creating your page\n          \n      After you learn how to build a bloock, you'll be able to write down a series of bloocks. That will make your web page, fast!\n      \n  \n\n\n  {% include bloocks/separators/scrape.html\ncolor='7185a6' \nseccolor='55647d'\nrgb='rgb(255,255,255)'\nsepclass=include.sepclass\n  %}\n\n\n\n{% capture modalcta %}\n{% include bloocks/components/paragraph.html\n  content='This bloocks have an image right and the possibility to put a svg separator at the bottom.'\n%}\n\n  {% include bloocks/components/button.html\n    id='test'\n    content='Button 1'\n    href='/'\n    target='blank'\n    icon='heroicons/outline/puzzle'\n    animation='ping'\n    iconclass='flex-shrink-0 h-6 w-6 text-grey-100'\n  %}\n  {% include bloocks/components/button.html\n    type='linkaltbutton'\n    content='Button 2'\n    otherclass='mt-5 ml-0 sm:mt-0 sm:ml-5 close-treact-popup'\n  %}\n      \n{% endcapture %}\n{% comment %}\n{% \n  include bloocks/modal/timer.html\n  title='Unlawful Markdown advantages'\n  titletype='h1'\n  contentclass='z-40'\n  content=modalcta\n  image='what-inside/ecommerce-tools.svg'\n  imgalt='bloocks image'\n  imgid='smart hero'\n  imgposition='right'\n%}  {% endcomment %}\n\n\n\n  \n    \n        {% for product in site.products %}\n        \n          {% comment %}{% include store/product-styles.html product=product %}{% endcomment %}\n            \n                \n            \n            \n                {{ product.name }}\n                \n                    {{ product.description_markdown | truncate: 45 | markdownify }}\n                \n                Button\n                ${{ product.price }}\n            \n        \n        {% endfor %}\n\n    \n  \n\n\n\n{% for language in site.languages %}\n\n  {% assign title = \"languages.\" | append: language %}\n  {% if forloop.first %}\n    \n      {% t {{title}} %}\n    \n  {% else %}\n    \n      {% t {{title}} %}\n    \n  {% endif %}\n{% endfor %}\n\n    \n        \n      \n        {% for product in site.products %}\n        \n          {% comment %}{% include store/product-styles.html product=product %}{% endcomment %}\n          \n            \n          \n          \n            {{ product.category }}\n            {{ product.name }}\n            ${{ product.price }}\n          \n        \n        {% endfor %}\n      \n    \n  \n\n\n  \n    \n      \n  {% for product in site.products %}\n        \n            \n                \n                    \n                        \n                            \n                        \n                    \n                \n                \n                    Detached house • 5y old\n                    $750,000\n                    742 Evergreen Terrace\n                \n                \n                    \n                        \n                            \n                        \n                        3 Bedrooms\n                    \n                    \n                        \n                            \n                        \n                        2 Bathrooms\n                    \n                \n                \n                    Realtor\n                    \n                        \n                        \n                        \n                            Tiffany Heffner\n                            (555) 555-4321\n                        \n                    \n                \n            \n        \n\n{% endfor %}\n\n\n\n\n\n\n    \n      \n  {% for product in site.products %}\n\n    \n        \n            \n        \n     \n       \n        \n          \n            New\n          \n          \n        2 baths  &bull; 3 rooms\n        \n        \n        \n        A random Title\n     \n      \n        $1800\n           /wk\n      \n      \n        4/5 ratings \n        (based on 234 ratings)\n        \n      \n     \n      \n    \n\n    {% endfor %}\n\n\n\n\n{% for file in site.static_files %}\n{{ file.path }} last edited at {{ file.modified_time | date:\"%H:%m\" }} with extname {{ file.extname }}\n{% endfor %}",
       "datePublished": null,
       "dateModified": null,
       "author": {
@@ -122,7 +122,7 @@
  "es-PR", "sx", "sv", "sv-FI", "th", "ts", "tn", "tr", "uk", "ur", "ve", "vi", "xh",
  "ji", "zu"];
  */
- var userLang = navigator.language || navigator.userLanguage;
+var userLang = navigator.language || navigator.userLanguage;
 
 /*
  test if ou cookie is set
@@ -157,31 +157,25 @@ function redirect(actuallang){
   
     
     case 'it':
-      
         url =  'https://antoniotrento.github.io/bloocks-test/it/prova/';
         break;
-      
     
   
     
     case 'fr':
-      
-        url = 'https://antoniotrento.github.io/bloocks-test/fr/prov/';
+        url =  'https://antoniotrento.github.io/bloocks-test/fr/prov/';
         break;
-      
     
   
     
     case 'de':
-      
         url =  'https://antoniotrento.github.io/bloocks-test/de/aushfart/';
         break;
-      
     
   
   
     default:
-      url = 'https://antoniotrento.github.io/bloocks-test' + '/prov/';
+      url = 'https://antoniotrento.github.io/bloocks-test/prov/';
       break;
   }
   window.location.replace(url);
@@ -192,7 +186,8 @@ function redirect(actuallang){
 <!--  PLEASE CONSIDER TO ADVICE IMPROVMENT IN THE SEQUENCE OF THE SCRIPT IN THE HEAD AT https://github.com/bloocks/bloocks.github.io/issues  -->
 
 
-   <link rel="stylesheet" href="https://antoniotrento.github.io/bloocks-test/assets/css/style.css" />
+   <!-- <link rel="stylesheet" href="https://antoniotrento.github.io/bloocks-test/assets/css/style.css" /> -->
+   <link rel="stylesheet" href="/assets/css/style.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w==" crossorigin="anonymous" />
 <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
 
@@ -242,7 +237,7 @@ function redirect(actuallang){
               
               <a href="https://antoniotrento.github.io/bloocks-test/fr" class="flex">
                 <span class="sr-only">Bloocks</span>
-                <img src="https://cdn.statically.io/img/antoniotrento.github.io/bloocks-test/img/main-logo.png" alt="Bloocks logo">
+                <img src="https://antoniotrento.github.io/bloocks-test/img/main-logo.png" alt="Bloocks logo">
               </a>
               
               
@@ -251,11 +246,11 @@ function redirect(actuallang){
             </div>
             <div class="-mr-2 -my-2 flex md:hidden">
               <!--LOOP FOR LANGUAGES-->
-              <div @click.away="flyoutMenuOpen = false" x-data="{ flyoutMenuOpen: false }" class="relative inline-flex items-center justify-center">
+              <div @click.away="flyoutMenuOpen = false" x-data="{ flyoutMenuOpen: false }" class="relative inline-flex">
                 <!-- Item active: "text-gray-900", Item inactive: "text-gray-500" -->
                 <button type="button" x-state:on="Item active" x-state:off="Item inactive" @click="flyoutMenuOpen = !flyoutMenuOpen" :class="{ 'text-gray-900': flyoutMenuOpen, 'text-gray-500': !flyoutMenuOpen }" 
                 class="group bg-white rounded-md text-gray-500 inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-1 focus:ring-offset-1 focus:ring-gray-300">
-                <svg xmlns="http://www.w3.org/2000/svg" id="flag-icon-css-fr" viewBox="0 0 640 480">
+                <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" id="flag-icon-css-fr" viewBox="0 0 640 480">
   <g fill-rule="evenodd" stroke-width="1pt">
     <path fill="#fff" d="M0 0h640v480H0z"/>
     <path fill="#00267f" d="M0 0h213.3v480H0z"/>
@@ -283,14 +278,14 @@ function redirect(actuallang){
                     From: "opacity-100 translate-y-0"
                     To: "opacity-0 translate-y-1"
                 -->
-                <div x-show="flyoutMenuOpen" x-transition:enter="transition ease-out duration-200" x-transition:enter-start="opacity-0 translate-y-1" x-transition:enter-end="opacity-100 translate-y-0" x-transition:leave="transition ease-in duration-150" x-transition:leave-start="opacity-100 translate-y-0" x-transition:leave-end="opacity-0 translate-y-1" style="display: none;" class="absolute z-10 -ml-4 mt-3 transform px-2 max-w-md px-0 ml-0 left-1/2 -translate-x-1/2">
+                <div x-show="flyoutMenuOpen" x-transition:enter="transition ease-out duration-200" x-transition:enter-start="opacity-0 translate-y-1" x-transition:enter-end="opacity-100 translate-y-0" x-transition:leave="transition ease-in duration-150" x-transition:leave-start="opacity-100 translate-y-0" x-transition:leave-end="opacity-0 translate-y-1" style="display: none;" class="absolute z-10 -ml-4 mt-8 transform px-2 max-w-md px-0 ml-0 left-1/2 -translate-x-1/2">
                   <div class="rounded-lg shadow ring-1 ring-black ring-opacity-5 overflow-hidden">
                     <div class="relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8">
                       
                         
                         
-                          <a href="/test/" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
-                          <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" id="flag-icon-css-us" viewBox="0 0 640 480">
+                          <a href="https://antoniotrento.github.io/bloocks-test/test/" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
+                          <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480">
     <g fill-rule="evenodd">
       <g stroke-width="1pt">
         <path fill="#bd3d44" d="M0 0h972.8v39.4H0zm0 78.8h972.8v39.4H0zm0 78.7h972.8V197H0zm0 78.8h972.8v39.4H0zm0 78.8h972.8v39.4H0zm0 78.7h972.8v39.4H0zm0 78.8h972.8V512H0z" transform="scale(.9375)"/>
@@ -303,8 +298,8 @@ function redirect(actuallang){
                         
                         
                         
-                          <a href="/it/prova/" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
-                          <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" id="flag-icon-css-it" viewBox="0 0 640 480">
+                          <a href="https://antoniotrento.github.io/bloocks-test/it/prova/" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
+                          <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480">
     <g fill-rule="evenodd" stroke-width="1pt">
       <path fill="#fff" d="M0 0h640v480H0z"/>
       <path fill="#009246" d="M0 0h213.3v480H0z"/>
@@ -316,8 +311,8 @@ function redirect(actuallang){
                         
                         
                         
-                          <a href="/de/aushfart/" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
-                          <svg xmlns="http://www.w3.org/2000/svg" id="flag-icon-css-de" viewBox="0 0 640 480">
+                          <a href="https://antoniotrento.github.io/bloocks-test/de/aushfart/" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
+                          <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480">
   <path fill="#ffce00" d="M0 320h640v160H0z"/>
   <path d="M0 0h640v160H0z"/>
   <path fill="#d00" d="M0 160h640v160H0z"/>
@@ -556,7 +551,7 @@ function redirect(actuallang){
                 <!-- Item active: "text-gray-900", Item inactive: "text-gray-500" -->
                 <button type="button" x-state:on="Item active" x-state:off="Item inactive" @click="flyoutMenuOpen = !flyoutMenuOpen" :class="{ 'text-gray-900': flyoutMenuOpen, 'text-gray-500': !flyoutMenuOpen }" 
                 class="group bg-white rounded-md text-gray-500 inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
-                <svg xmlns="http://www.w3.org/2000/svg" id="flag-icon-css-fr" viewBox="0 0 640 480">
+                <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" id="flag-icon-css-fr" viewBox="0 0 640 480">
   <g fill-rule="evenodd" stroke-width="1pt">
     <path fill="#fff" d="M0 0h640v480H0z"/>
     <path fill="#00267f" d="M0 0h213.3v480H0z"/>
@@ -590,8 +585,8 @@ function redirect(actuallang){
                       
                         
                         
-                          <a href="/test/" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
-                          <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" id="flag-icon-css-us" viewBox="0 0 640 480">
+                          <a href="https://antoniotrento.github.io/bloocks-test/test/" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
+                          <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480">
     <g fill-rule="evenodd">
       <g stroke-width="1pt">
         <path fill="#bd3d44" d="M0 0h972.8v39.4H0zm0 78.8h972.8v39.4H0zm0 78.7h972.8V197H0zm0 78.8h972.8v39.4H0zm0 78.8h972.8v39.4H0zm0 78.7h972.8v39.4H0zm0 78.8h972.8V512H0z" transform="scale(.9375)"/>
@@ -604,8 +599,8 @@ function redirect(actuallang){
                         
                         
                         
-                          <a href="/it/prova/" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
-                          <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" id="flag-icon-css-it" viewBox="0 0 640 480">
+                          <a href="https://antoniotrento.github.io/bloocks-test/it/prova/" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
+                          <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480">
     <g fill-rule="evenodd" stroke-width="1pt">
       <path fill="#fff" d="M0 0h640v480H0z"/>
       <path fill="#009246" d="M0 0h213.3v480H0z"/>
@@ -617,8 +612,8 @@ function redirect(actuallang){
                         
                         
                         
-                          <a href="/de/aushfart/" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
-                          <svg xmlns="http://www.w3.org/2000/svg" id="flag-icon-css-de" viewBox="0 0 640 480">
+                          <a href="https://antoniotrento.github.io/bloocks-test/de/aushfart/" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
+                          <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480">
   <path fill="#ffce00" d="M0 320h640v160H0z"/>
   <path d="M0 0h640v160H0z"/>
   <path fill="#d00" d="M0 160h640v160H0z"/>
@@ -672,7 +667,7 @@ function redirect(actuallang){
                   <!-- <img class="h-8 w-auto" src="" alt=""> -->
                   
                   <a href="https://antoniotrento.github.io/bloocks-test/fr" class="flex">
-                    <img src="https://cdn.statically.io/img/antoniotrento.github.io/bloocks-test/img/main-logo.png" alt="Bloocks logo">
+                    <img src="https://antoniotrento.github.io/bloocks-test/img/main-logo.png" alt="Bloocks logo">
                   </a>
                   
                   
@@ -1263,7 +1258,7 @@ This bloocks have an image right and the possibility to put a svg separator at t
     <div class="w-full md:w-1/2">
             
 
-<img id="smart hero" class="inset-0 object-cover" loading="lazy" alt="bloocks image" src="https://cdn.statically.io/img/antoniotrento.github.io/bloocks-test/img/roadmap/bloocks-launch.svg">
+<img id="smart hero" class="inset-0 object-cover" loading="lazy" alt="bloocks image" src="https://antoniotrento.github.io/bloocks-test/img/roadmap/bloocks-launch.svg">
 
     </div>
 </div>
@@ -1371,7 +1366,7 @@ Button 2
       <div class="pt-20 md:pt-0 lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col">
         
 
-<img class="object-cover object-center rounded" loading="lazy" alt="" src="https://cdn.statically.io/img/antoniotrento.github.io/bloocks-test/img/what-inside/ecommerce-tools.svg">
+<img class="object-cover object-center rounded" loading="lazy" alt="" src="https://antoniotrento.github.io/bloocks-test/img/what-inside/ecommerce-tools.svg">
 
       </div>
       <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 md:items-start md:text-left md:mb-0 items-center text-center">
@@ -1453,7 +1448,7 @@ Button 2
 
 
 
-<img class="lazy object-cover object-center rounded" loading="lazy" id="bloocksimg" alt="bloocks image" data-aos="fade-right" src="https://cdn.statically.io/img/antoniotrento.github.io/bloocks-test/fr/img/macbook-mockup-800-767ce8686.png" srcset="https://cdn.statically.io/img/antoniotrento.github.io/bloocks-test/fr/img/macbook-mockup-200-767ce8686.png 200w, https://cdn.statically.io/img/antoniotrento.github.io/bloocks-test/fr/img/macbook-mockup-400-767ce8686.png 400w, https://cdn.statically.io/img/antoniotrento.github.io/bloocks-test/fr/img/macbook-mockup-800-767ce8686.png 800w, https://cdn.statically.io/img/antoniotrento.github.io/bloocks-test/fr/img/macbook-mockup-1600-767ce8686.png 1600w" sizes="(max-width: 600px) 100vw, (max-width: 900px) 80vw, 800px" width="" height="">
+<img class="lazy object-cover object-center rounded" loading="lazy" id="bloocksimg" alt="bloocks image" data-aos="fade-right" src="https://antoniotrento.github.io/bloocks-test/img/bloocks-macbook-mockup-800-3375bd561.png" srcset="https://antoniotrento.github.io/bloocks-test/img/bloocks-macbook-mockup-200-3375bd561.png 200w, https://antoniotrento.github.io/bloocks-test/img/bloocks-macbook-mockup-400-3375bd561.png 400w, https://antoniotrento.github.io/bloocks-test/img/bloocks-macbook-mockup-800-3375bd561.png 800w, https://antoniotrento.github.io/bloocks-test/img/bloocks-macbook-mockup-1600-3375bd561.png 1600w" sizes="(max-width: 600px) 100vw, (max-width: 900px) 80vw, 800px" width="2000" height="1201">
 
 
       </div>
@@ -1526,7 +1521,7 @@ Button 2
 
 
 
-<img class="lazy md:w-4/6 w-5/6 mb-10 object-cover object-center rounded" loading="lazy" id="bloocksimg" alt="bloocks image" data-aos="fade-right" src="https://cdn.statically.io/img/antoniotrento.github.io/bloocks-test/fr/img/macbook-mockup-800-767ce8686.png" srcset="https://cdn.statically.io/img/antoniotrento.github.io/bloocks-test/fr/img/macbook-mockup-200-767ce8686.png 200w, https://cdn.statically.io/img/antoniotrento.github.io/bloocks-test/fr/img/macbook-mockup-400-767ce8686.png 400w, https://cdn.statically.io/img/antoniotrento.github.io/bloocks-test/fr/img/macbook-mockup-800-767ce8686.png 800w, https://cdn.statically.io/img/antoniotrento.github.io/bloocks-test/fr/img/macbook-mockup-1600-767ce8686.png 1600w" sizes="(max-width: 600px) 100vw, (max-width: 900px) 80vw, 800px" width="" height="">
+<img class="lazy md:w-4/6 w-5/6 mb-10 object-cover object-center rounded" loading="lazy" id="bloocksimg" alt="bloocks image" data-aos="fade-right" src="https://antoniotrento.github.io/bloocks-test/img/bloocks-macbook-mockup-800-3375bd561.png" srcset="https://antoniotrento.github.io/bloocks-test/img/bloocks-macbook-mockup-200-3375bd561.png 200w, https://antoniotrento.github.io/bloocks-test/img/bloocks-macbook-mockup-400-3375bd561.png 400w, https://antoniotrento.github.io/bloocks-test/img/bloocks-macbook-mockup-800-3375bd561.png 800w, https://antoniotrento.github.io/bloocks-test/img/bloocks-macbook-mockup-1600-3375bd561.png 1600w" sizes="(max-width: 600px) 100vw, (max-width: 900px) 80vw, 800px" width="2000" height="1201">
 
 
     <div class="text-center lg:w-2/3 w-full">
@@ -1659,7 +1654,7 @@ Button 2
 
 
 
-<img class="lazy inset-0 object-cover overflow-x-hidden -ml-12" loading="lazy" id="hero mac" alt="bloocks image" data-aos="fade-right" src="https://cdn.statically.io/img/antoniotrento.github.io/bloocks-test/fr/img/macbook-mockup-800-767ce8686.png" srcset="https://cdn.statically.io/img/antoniotrento.github.io/bloocks-test/fr/img/macbook-mockup-200-767ce8686.png 200w, https://cdn.statically.io/img/antoniotrento.github.io/bloocks-test/fr/img/macbook-mockup-400-767ce8686.png 400w, https://cdn.statically.io/img/antoniotrento.github.io/bloocks-test/fr/img/macbook-mockup-800-767ce8686.png 800w, https://cdn.statically.io/img/antoniotrento.github.io/bloocks-test/fr/img/macbook-mockup-1600-767ce8686.png 1600w" sizes="(max-width: 600px) 100vw, (max-width: 900px) 80vw, 800px" width="" height="">
+<img class="lazy inset-0 object-cover overflow-x-hidden -ml-12" loading="lazy" id="hero mac" alt="bloocks image" data-aos="fade-right" src="https://antoniotrento.github.io/bloocks-test/img/macbook-mockup-800-767ce8686.png" srcset="https://antoniotrento.github.io/bloocks-test/img/macbook-mockup-200-767ce8686.png 200w, https://antoniotrento.github.io/bloocks-test/img/macbook-mockup-400-767ce8686.png 400w, https://antoniotrento.github.io/bloocks-test/img/macbook-mockup-800-767ce8686.png 800w, https://antoniotrento.github.io/bloocks-test/img/macbook-mockup-1600-767ce8686.png 1600w" sizes="(max-width: 600px) 100vw, (max-width: 900px) 80vw, 800px" width="" height="">
 
 
         
@@ -1828,7 +1823,7 @@ Button 2
     
             
 
-<img id="bloocksimg" class="inset-0 object-cover" loading="lazy" alt="bloocks image" src="https://cdn.statically.io/img/antoniotrento.github.io/bloocks-test/img/what-inside/ecommerce-tools.svg" data-aos="fade-right">
+<img id="bloocksimg" class="inset-0 object-cover" loading="lazy" alt="bloocks image" src="https://antoniotrento.github.io/bloocks-test/img/what-inside/ecommerce-tools.svg" data-aos="fade-right">
 
     
     </div>
@@ -1842,7 +1837,7 @@ Button 2
   <div class="w-full md:w-1/2">
       <div class="flex flex-col overflow-hidden rounded-lg shadow-2xl">
 
-          <img src="https://cdn.statically.io/img/antoniotrento.github.io/bloocks-test/img/index/02-bloocks-code.svg" class="inset-0 object-cover">
+          <img src="img/index/02-bloocks-code.svg" class="inset-0 object-cover">
       </div>
   </div>
   <div class="flex flex-col items-start justify-center w-full p-5 md:w-1/2 lg:p-16 xl:p-24">
@@ -1885,7 +1880,7 @@ Button 2
                 <img alt="content" class="object-cover object-center h-full w-full" src="https://dummyimage.com/1202x502">
             </div>
             <div class="product-details">
-                <h4 class="title-font text-2xl font-medium text-gray-900 mt-6 mb-3"><a href="/products/deer/">products.deer.name</a></h4>
+                <h4 class="title-font text-2xl font-medium text-gray-900 mt-6 mb-3"><a href="/prodoict/deer/">Sacha the deer</a></h4>
                 <div class="product-description">
                     <p class="leading-relaxed text-base"><p>Sacha’s elegant antlers have never been se…</p>
 </p>
@@ -1901,7 +1896,7 @@ Button 2
                 <img alt="content" class="object-cover object-center h-full w-full" src="https://dummyimage.com/1202x502">
             </div>
             <div class="product-details">
-                <h4 class="title-font text-2xl font-medium text-gray-900 mt-6 mb-3"><a href="/products/elephant/">Bumble the Elephant</a></h4>
+                <h4 class="title-font text-2xl font-medium text-gray-900 mt-6 mb-3"><a href="/prodoict/elephant/">Bumble the Elephant</a></h4>
                 <div class="product-description">
                     <p class="leading-relaxed text-base"><p>Bumble the humble elephant is your shining…</p>
 </p>
@@ -1917,7 +1912,7 @@ Button 2
                 <img alt="content" class="object-cover object-center h-full w-full" src="https://dummyimage.com/1202x502">
             </div>
             <div class="product-details">
-                <h4 class="title-font text-2xl font-medium text-gray-900 mt-6 mb-3"><a href="/products/giraffe/">Gerald the Giraffe</a></h4>
+                <h4 class="title-font text-2xl font-medium text-gray-900 mt-6 mb-3"><a href="/prodoict/giraffe/">Gerald the Giraffe</a></h4>
                 <div class="product-description">
                     <p class="leading-relaxed text-base"><p>Gerald the giraffe isn’t particularly spir…</p>
 </p>
@@ -1933,7 +1928,7 @@ Button 2
                 <img alt="content" class="object-cover object-center h-full w-full" src="https://dummyimage.com/1202x502">
             </div>
             <div class="product-details">
-                <h4 class="title-font text-2xl font-medium text-gray-900 mt-6 mb-3"><a href="/products/hog/">Todd the Hedgehog</a></h4>
+                <h4 class="title-font text-2xl font-medium text-gray-900 mt-6 mb-3"><a href="/prodoict/hog/">Todd the Hedgehog</a></h4>
                 <div class="product-description">
                     <p class="leading-relaxed text-base"><p>Todd the hedgehog may have a spiky exterio…</p>
 </p>
@@ -1949,7 +1944,7 @@ Button 2
                 <img alt="content" class="object-cover object-center h-full w-full" src="https://dummyimage.com/1202x502">
             </div>
             <div class="product-details">
-                <h4 class="title-font text-2xl font-medium text-gray-900 mt-6 mb-3"><a href="/products/lion/">Scar the Lion</a></h4>
+                <h4 class="title-font text-2xl font-medium text-gray-900 mt-6 mb-3"><a href="/prodoict/lion/">Scar the Lion</a></h4>
                 <div class="product-description">
                     <p class="leading-relaxed text-base"><p>Scar the lion is always true to himself. T…</p>
 </p>
@@ -1965,7 +1960,7 @@ Button 2
                 <img alt="content" class="object-cover object-center h-full w-full" src="https://dummyimage.com/1202x502">
             </div>
             <div class="product-details">
-                <h4 class="title-font text-2xl font-medium text-gray-900 mt-6 mb-3"><a href="/products/tiger/">Gavin the Tiger</a></h4>
+                <h4 class="title-font text-2xl font-medium text-gray-900 mt-6 mb-3"><a href="/prodoict/tiger/">Gavin the Tiger</a></h4>
                 <div class="product-description">
                     <p class="leading-relaxed text-base"><p>Gavin the tiger was brought up vegan. His …</p>
 </p>
@@ -2026,7 +2021,7 @@ Button 2
           </a>
           <div class="mt-4">
             <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">t-shirts</h3>
-            <h2 class="text-gray-900 title-font text-lg font-medium">products.deer.name</h2>
+            <h2 class="text-gray-900 title-font text-lg font-medium">Sacha the deer</h2>
             <p class="mt-1">$19.00</p>
           </div>
         </div>
@@ -3219,7 +3214,7 @@ Button 2
 
 
 
-<img class="lazy bloocks" loading="lazy" alt="" src="https://cdn.statically.io/img/antoniotrento.github.io/bloocks-test/fr/img/boom-logo-80-80-3375bd561.png" srcset="https://cdn.statically.io/img/antoniotrento.github.io/bloocks-test/fr/img/boom-logo-80-80-3375bd561.png 80w" sizes="(max-width: 600px) 100vw, (max-width: 900px) 80vw, 100px" width="80" height="80">
+<img class="lazy bloocks" loading="lazy" alt="" src="https://antoniotrento.github.io/bloocks-test/img/boom-logo-80-80-3375bd561.png" srcset="https://antoniotrento.github.io/bloocks-test/img/boom-logo-80-80-3375bd561.png 80w" sizes="(max-width: 600px) 100vw, (max-width: 900px) 80vw, 100px" width="80" height="80">
 
 
                                       

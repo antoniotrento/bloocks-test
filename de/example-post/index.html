@@ -116,7 +116,7 @@
  "es-PR", "sx", "sv", "sv-FI", "th", "ts", "tn", "tr", "uk", "ur", "ve", "vi", "xh",
  "ji", "zu"];
  */
- var userLang = navigator.language || navigator.userLanguage;
+var userLang = navigator.language || navigator.userLanguage;
 
 /*
  test if ou cookie is set
@@ -143,7 +143,7 @@ function redirect(actuallang){
   switch(actuallang){
   
     default:
-      url = 'https://antoniotrento.github.io/bloocks-test' + '/example-post/';
+      url = 'https://antoniotrento.github.io/bloocks-test/example-post/';
       break;
   }
   window.location.replace(url);
@@ -154,7 +154,8 @@ function redirect(actuallang){
 <!--  PLEASE CONSIDER TO ADVICE IMPROVMENT IN THE SEQUENCE OF THE SCRIPT IN THE HEAD AT https://github.com/bloocks/bloocks.github.io/issues  -->
 
 
-   <link rel="stylesheet" href="https://antoniotrento.github.io/bloocks-test/assets/css/style.css" />
+   <!-- <link rel="stylesheet" href="https://antoniotrento.github.io/bloocks-test/assets/css/style.css" /> -->
+   <link rel="stylesheet" href="/assets/css/style.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w==" crossorigin="anonymous" />
 <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
 
@@ -203,7 +204,7 @@ function redirect(actuallang){
               
               <a href="https://antoniotrento.github.io/bloocks-test/de" class="flex">
                 <span class="sr-only">Bloocks</span>
-                <img src="https://cdn.statically.io/img/antoniotrento.github.io/bloocks-test/img/main-logo.png" alt="Bloocks logo">
+                <img src="https://antoniotrento.github.io/bloocks-test/img/main-logo.png" alt="Bloocks logo">
               </a>
               
               
@@ -212,11 +213,11 @@ function redirect(actuallang){
             </div>
             <div class="-mr-2 -my-2 flex md:hidden">
               <!--LOOP FOR LANGUAGES-->
-              <div @click.away="flyoutMenuOpen = false" x-data="{ flyoutMenuOpen: false }" class="relative inline-flex items-center justify-center">
+              <div @click.away="flyoutMenuOpen = false" x-data="{ flyoutMenuOpen: false }" class="relative inline-flex">
                 <!-- Item active: "text-gray-900", Item inactive: "text-gray-500" -->
                 <button type="button" x-state:on="Item active" x-state:off="Item inactive" @click="flyoutMenuOpen = !flyoutMenuOpen" :class="{ 'text-gray-900': flyoutMenuOpen, 'text-gray-500': !flyoutMenuOpen }" 
                 class="group bg-white rounded-md text-gray-500 inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-1 focus:ring-offset-1 focus:ring-gray-300">
-                <svg xmlns="http://www.w3.org/2000/svg" id="flag-icon-css-de" viewBox="0 0 640 480">
+                <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" id="flag-icon-css-de" viewBox="0 0 640 480">
   <path fill="#ffce00" d="M0 320h640v160H0z"/>
   <path d="M0 0h640v160H0z"/>
   <path fill="#d00" d="M0 160h640v160H0z"/>
@@ -242,14 +243,14 @@ function redirect(actuallang){
                     From: "opacity-100 translate-y-0"
                     To: "opacity-0 translate-y-1"
                 -->
-                <div x-show="flyoutMenuOpen" x-transition:enter="transition ease-out duration-200" x-transition:enter-start="opacity-0 translate-y-1" x-transition:enter-end="opacity-100 translate-y-0" x-transition:leave="transition ease-in duration-150" x-transition:leave-start="opacity-100 translate-y-0" x-transition:leave-end="opacity-0 translate-y-1" style="display: none;" class="absolute z-10 -ml-4 mt-3 transform px-2 max-w-md px-0 ml-0 left-1/2 -translate-x-1/2">
+                <div x-show="flyoutMenuOpen" x-transition:enter="transition ease-out duration-200" x-transition:enter-start="opacity-0 translate-y-1" x-transition:enter-end="opacity-100 translate-y-0" x-transition:leave="transition ease-in duration-150" x-transition:leave-start="opacity-100 translate-y-0" x-transition:leave-end="opacity-0 translate-y-1" style="display: none;" class="absolute z-10 -ml-4 mt-8 transform px-2 max-w-md px-0 ml-0 left-1/2 -translate-x-1/2">
                   <div class="rounded-lg shadow ring-1 ring-black ring-opacity-5 overflow-hidden">
                     <div class="relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8">
                       
                         
                         
                         <a href="/example-post/" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
-                          <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" id="flag-icon-css-us" viewBox="0 0 640 480">
+                          <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480">
     <g fill-rule="evenodd">
       <g stroke-width="1pt">
         <path fill="#bd3d44" d="M0 0h972.8v39.4H0zm0 78.8h972.8v39.4H0zm0 78.7h972.8V197H0zm0 78.8h972.8v39.4H0zm0 78.8h972.8v39.4H0zm0 78.7h972.8v39.4H0zm0 78.8h972.8V512H0z" transform="scale(.9375)"/>
@@ -262,8 +263,8 @@ function redirect(actuallang){
                         
                         
                         
-                        <a href="/it/example-post/" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
-                          <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" id="flag-icon-css-it" viewBox="0 0 640 480">
+                        <a href="https://antoniotrento.github.io/bloocks-test/it/example-post/" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
+                          <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480">
     <g fill-rule="evenodd" stroke-width="1pt">
       <path fill="#fff" d="M0 0h640v480H0z"/>
       <path fill="#009246" d="M0 0h213.3v480H0z"/>
@@ -274,8 +275,8 @@ function redirect(actuallang){
                         
                         
                         
-                        <a href="/fr/example-post/" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
-                          <svg xmlns="http://www.w3.org/2000/svg" id="flag-icon-css-fr" viewBox="0 0 640 480">
+                        <a href="https://antoniotrento.github.io/bloocks-test/fr/example-post/" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
+                          <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480">
   <g fill-rule="evenodd" stroke-width="1pt">
     <path fill="#fff" d="M0 0h640v480H0z"/>
     <path fill="#00267f" d="M0 0h213.3v480H0z"/>
@@ -287,8 +288,8 @@ function redirect(actuallang){
                         
                         
                         
-                        <a href="/de/example-post/" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
-                          <svg xmlns="http://www.w3.org/2000/svg" id="flag-icon-css-de" viewBox="0 0 640 480">
+                        <a href="https://antoniotrento.github.io/bloocks-test/de/example-post/" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
+                          <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480">
   <path fill="#ffce00" d="M0 320h640v160H0z"/>
   <path d="M0 0h640v160H0z"/>
   <path fill="#d00" d="M0 160h640v160H0z"/>
@@ -528,7 +529,7 @@ function redirect(actuallang){
                 <!-- Item active: "text-gray-900", Item inactive: "text-gray-500" -->
                 <button type="button" x-state:on="Item active" x-state:off="Item inactive" @click="flyoutMenuOpen = !flyoutMenuOpen" :class="{ 'text-gray-900': flyoutMenuOpen, 'text-gray-500': !flyoutMenuOpen }" 
                 class="group bg-white rounded-md text-gray-500 inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
-                <svg xmlns="http://www.w3.org/2000/svg" id="flag-icon-css-de" viewBox="0 0 640 480">
+                <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" id="flag-icon-css-de" viewBox="0 0 640 480">
   <path fill="#ffce00" d="M0 320h640v160H0z"/>
   <path d="M0 0h640v160H0z"/>
   <path fill="#d00" d="M0 160h640v160H0z"/>
@@ -561,7 +562,7 @@ function redirect(actuallang){
                         
                         
                         <a href="/example-post/" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
-                          <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" id="flag-icon-css-us" viewBox="0 0 640 480">
+                          <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480">
     <g fill-rule="evenodd">
       <g stroke-width="1pt">
         <path fill="#bd3d44" d="M0 0h972.8v39.4H0zm0 78.8h972.8v39.4H0zm0 78.7h972.8V197H0zm0 78.8h972.8v39.4H0zm0 78.8h972.8v39.4H0zm0 78.7h972.8v39.4H0zm0 78.8h972.8V512H0z" transform="scale(.9375)"/>
@@ -575,8 +576,8 @@ function redirect(actuallang){
                         
                         
                         
-                        <a href="/it/example-post/" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
-                          <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" id="flag-icon-css-it" viewBox="0 0 640 480">
+                        <a href="https://antoniotrento.github.io/bloocks-test/it/example-post/" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
+                          <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480">
     <g fill-rule="evenodd" stroke-width="1pt">
       <path fill="#fff" d="M0 0h640v480H0z"/>
       <path fill="#009246" d="M0 0h213.3v480H0z"/>
@@ -587,8 +588,8 @@ function redirect(actuallang){
                         
                         
                         
-                        <a href="/fr/example-post/" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
-                          <svg xmlns="http://www.w3.org/2000/svg" id="flag-icon-css-fr" viewBox="0 0 640 480">
+                        <a href="https://antoniotrento.github.io/bloocks-test/fr/example-post/" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
+                          <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480">
   <g fill-rule="evenodd" stroke-width="1pt">
     <path fill="#fff" d="M0 0h640v480H0z"/>
     <path fill="#00267f" d="M0 0h213.3v480H0z"/>
@@ -600,8 +601,8 @@ function redirect(actuallang){
                         
                         
                         
-                        <a href="/de/example-post/" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
-                          <svg xmlns="http://www.w3.org/2000/svg" id="flag-icon-css-de" viewBox="0 0 640 480">
+                        <a href="https://antoniotrento.github.io/bloocks-test/de/example-post/" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
+                          <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480">
   <path fill="#ffce00" d="M0 320h640v160H0z"/>
   <path d="M0 0h640v160H0z"/>
   <path fill="#d00" d="M0 160h640v160H0z"/>
@@ -656,7 +657,7 @@ function redirect(actuallang){
                   <!-- <img class="h-8 w-auto" src="" alt=""> -->
                   
                   <a href="https://antoniotrento.github.io/bloocks-test/de" class="flex">
-                    <img src="https://cdn.statically.io/img/antoniotrento.github.io/bloocks-test/img/main-logo.png" alt="Bloocks logo">
+                    <img src="https://antoniotrento.github.io/bloocks-test/img/main-logo.png" alt="Bloocks logo">
                   </a>
                   
                   
@@ -851,7 +852,7 @@ Example post</h1>
 
 
 
-<img class="lazy inset-0 object-cover" loading="lazy" alt="" src="https://cdn.statically.io/img/antoniotrento.github.io/bloocks-test/de/img/cover-800-767ce8686.jpg" srcset="https://cdn.statically.io/img/antoniotrento.github.io/bloocks-test/de/img/cover-200-767ce8686.jpg 200w, https://cdn.statically.io/img/antoniotrento.github.io/bloocks-test/de/img/cover-400-767ce8686.jpg 400w, https://cdn.statically.io/img/antoniotrento.github.io/bloocks-test/de/img/cover-800-767ce8686.jpg 800w, https://cdn.statically.io/img/antoniotrento.github.io/bloocks-test/de/img/cover-1600-767ce8686.jpg 1600w" sizes="(max-width: 600px) 100vw, (max-width: 900px) 80vw, 800px" width="" height="">
+<img class="lazy inset-0 object-cover" loading="lazy" alt="" src="https://antoniotrento.github.io/bloocks-test/img/cover-800-767ce8686.jpg" srcset="https://antoniotrento.github.io/bloocks-test/img/cover-200-767ce8686.jpg 200w, https://antoniotrento.github.io/bloocks-test/img/cover-400-767ce8686.jpg 400w, https://antoniotrento.github.io/bloocks-test/img/cover-800-767ce8686.jpg 800w, https://antoniotrento.github.io/bloocks-test/img/cover-1600-767ce8686.jpg 1600w" sizes="(max-width: 600px) 100vw, (max-width: 900px) 80vw, 800px" width="" height="">
 
 
     </div>
@@ -881,7 +882,7 @@ Example post</h1>
 
 
 
-<img class="lazy bloocks object-cover w-full h-72 md:h-80" loading="lazy" alt="" src="https://cdn.statically.io/img/antoniotrento.github.io/bloocks-test/de/img/bloocks-prelaunch-750-b569bfa63.jpg" srcset="https://cdn.statically.io/img/antoniotrento.github.io/bloocks-test/de/img/bloocks-prelaunch-200-b569bfa63.jpg 200w, https://cdn.statically.io/img/antoniotrento.github.io/bloocks-test/de/img/bloocks-prelaunch-400-b569bfa63.jpg 400w, https://cdn.statically.io/img/antoniotrento.github.io/bloocks-test/de/img/bloocks-prelaunch-750-b569bfa63.jpg 750w" sizes="(max-width: 600px) 100vw, (max-width: 900px) 80vw, 800px" width="750" height="427">
+<img class="lazy bloocks object-cover w-full h-72 md:h-80" loading="lazy" alt="" src="https://antoniotrento.github.io/bloocks-test/img/bloocks-prelaunch-750-b569bfa63.jpg" srcset="https://antoniotrento.github.io/bloocks-test/img/bloocks-prelaunch-200-b569bfa63.jpg 200w, https://antoniotrento.github.io/bloocks-test/img/bloocks-prelaunch-400-b569bfa63.jpg 400w, https://antoniotrento.github.io/bloocks-test/img/bloocks-prelaunch-750-b569bfa63.jpg 750w" sizes="(max-width: 600px) 100vw, (max-width: 900px) 80vw, 800px" width="750" height="427">
 
 
       <div class="p-4 -mt-6 overflow-y-visiblerflow-hidden md:-mt-8">
@@ -941,7 +942,7 @@ Example post</h1>
 
 
 
-<img class="lazy bloocks" loading="lazy" alt="" src="https://cdn.statically.io/img/antoniotrento.github.io/bloocks-test/de/img/boom-logo-80-80-3375bd561.png" srcset="https://cdn.statically.io/img/antoniotrento.github.io/bloocks-test/de/img/boom-logo-80-80-3375bd561.png 80w" sizes="(max-width: 600px) 100vw, (max-width: 900px) 80vw, 100px" width="80" height="80">
+<img class="lazy bloocks" loading="lazy" alt="" src="https://antoniotrento.github.io/bloocks-test/img/boom-logo-80-80-3375bd561.png" srcset="https://antoniotrento.github.io/bloocks-test/img/boom-logo-80-80-3375bd561.png 80w" sizes="(max-width: 600px) 100vw, (max-width: 900px) 80vw, 100px" width="80" height="80">
 
 
                                       
