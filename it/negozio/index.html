@@ -64,7 +64,6 @@
       "headline": "",
       "keywords": "",
       "description": "",
-      "articleBody": "\n  \n    \n    {% for product in site.translations[site.lang].products %}\n    {% comment %}{% include store/product-styles.html product=product %}{% endcomment %}\n      \n        {% capture prodimg %} {% if page.lang=='en' %}{{ product[\"image\"] | remove: \"img/\" }} {% else %} {{ product[\"image\"] }} {% endif %}{% endcapture %}       \n        {% \n          include bloocks/helpers/htmltag/productimgtag.html\n          type=bloock\n          image=prodimg\n          otherclass='w-full object-cover object-center rounded-lg shadow-md'\n        %}\n          \n      \n        \n          \n            \n              {{ product[\"category\"] | truncate: 45 | markdownify }}\n            \n            \n              {{ product[\"stock\"] }} in stock, {{ product[\"sale\"] }}% OFF\n              \n          \n          \n          {{ product[\"name\"] | truncate: 45 | markdownify }}\n      \n        \n          Calculate price\n          \n        \n        \n          \n            Show Product\n          \n          Add to cart\n        \n          \n        \n          4/5 ratings \n          (based on 234 ratings)\n          \n        \n      \n        \n      \n\n    {% endfor %}\n    \n  \n\n{% capture fulltextcta %}\n{{ site.baseurl_root }}\n\n  {% \n    include bloocks/components/button.html\n    id='test'\n    content='Button 1'\n    href='/'\n    target='blank'\n    icon='heroicons/outline/puzzle'\n    animation='ping'\n    iconclass='flex-shrink-0 h-6 w-6 text-grey-100'\n  %}\n  {% \n    include bloocks/components/button.html\n    type='linkaltbutton'\n    content='Button 2'\n    otherclass='ml-4'\n    href='/roadmap'\n    target='blank'\n  %}\n       \n{% endcapture %}\n{% \n  include bloocks/hero/tailblocks/full-text.html\n  bloock='full-text-blackbg'\n  title=site.baseurl_root\n  titlecolor='text-gray-200'\n  content=fulltextcta\n  image='what-inside/ecommerce-tools.svg'\n  separator='scrape' \n  sepcolor='7185a6' \n  sepseccolor='55647d'\n  seprgb='rgb(255,255,255)'\n%}\n",
       "datePublished": null,
       "dateModified": null,
       "author": {
@@ -86,13 +85,10 @@
       },
       "image": {
         "@type": "ImageObject",
-        "width": ,
-        "height": ,
-        "url": "https://antoniotrento.github.io/bloocks-test"
+        "url": "https://antoniotrento.github.io/bloocks-test",
         "contentUrl": "https://example.com/photos/1x1/adult-black-labrador.jpg",
         "license": "https://example.com/license",
-        "acquireLicensePage": "https://example.com/how-to-use-my-images"
-  
+        "acquireLicensePage": "https://example.com/how-to-use-my-images" 
       }
     }
     </script>

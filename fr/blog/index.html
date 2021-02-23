@@ -64,7 +64,6 @@
       "headline": "",
       "keywords": "",
       "description": "",
-      "articleBody": "\n  {% for post in site.posts %}\n  {% assign postimage = post.image | remove: \"img/\" %}\n   \n      {% if post.image %}\n      {% \n        include bloocks/helpers/htmltag/imgtag.html \n        type='image'\n        image=postimage\n        otherclass='object-cover w-full h-72 md:h-80'\n        imgtemplate='bloocks'\n        alt=post.title\n        style='clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 80%);'\n      %}\n      {% endif %}\n      \n          \n            {{ post.title }}\n          \n\n          \n            {{ post.description | remove: '' | remove: '' }}\n          \n          \n          {% include bloocks/components/button.html\n            type='linkbutton'\n            content=\"Read it\"\n            href=post.url\n          %}\n          \n      \n\n      \n        {% if post.tags %}\n          \n            {% include bloocks/icons/heroicons/outline/tag.html class='w-5 md:w-6 text-gray-600' %}\n          \n\n          \n            {% for tag in post.tags %}\n              {{ tag }}{% if tag != post.tags.last %},{% endif %}\n            {% endfor %}\n          \n        {% endif %}\n      \n   \n  {% endfor %}\n",
       "datePublished": null,
       "dateModified": null,
       "author": {
@@ -86,13 +85,10 @@
       },
       "image": {
         "@type": "ImageObject",
-        "width": ,
-        "height": ,
-        "url": "https://antoniotrento.github.io/bloocks-test"
+        "url": "https://antoniotrento.github.io/bloocks-test",
         "contentUrl": "https://example.com/photos/1x1/adult-black-labrador.jpg",
         "license": "https://example.com/license",
-        "acquireLicensePage": "https://example.com/how-to-use-my-images"
-  
+        "acquireLicensePage": "https://example.com/how-to-use-my-images" 
       }
     }
     </script>
