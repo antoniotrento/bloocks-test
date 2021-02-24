@@ -350,6 +350,7 @@ defaults:
       type: "products"
     values:
       layout: "product"
+      is-product: true
 # Jekyll Admin create problems during the script npm run start, brosersync can't reload the site and give me an error and exit from the serving loop made in gulpfile.babel.js
 
 # jekyll_admin:
