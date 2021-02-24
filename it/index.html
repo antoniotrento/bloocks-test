@@ -33,66 +33,76 @@
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:title" content="" />
     <meta name="twitter:image" content="https://antoniotrento.github.io/bloocks-test/img/default-card.png" />
+  
+
+
+
+
+
+
+
+<!-- https://developer.yoast.com/features/schema/functional-specificati
+  https://webmasters.stackexchange.com/questions/90300/how-to-use-more-than-1-schema-org-schema-on-a-web-page -->
   <script type="application/ld+json">
     {
-        "@context": "http://schema.org",
-        "@type": "Blog",
-        "url": "https://antoniotrento.github.io/bloocks-test",
-        "headline": "Bloocks fastest websites generator ever!",
-        "about": "Build badass and fastest marketing websites with Bloocks, a static websites generator to build Ecommerce and websites on top of tecnical performaces.",
-        "image": [
-            "https://41.media.tumblr.com/709bb3c371b9924add351bfe3386e946/tumblr_nxdq8uFdx81qzocgko1_1280.jpg"
-        ],
-        "isAccessibleForFree": "True",
-        "isPartOf": {
-            "@type": ["CreativeWork", "Product"],
-            "name": "Fight With Tools",
-            "productID": "aramzs.github.io"
-        },
-        "discussionUrl": "https://twitter.com/search?f=tweets&vertical=default&q=to%3AChronotope&l=en&src=typd",
-        "author": {
-            "@type": "Person",
-            "name": "Aram Zucker-Scharff",
-            "description": "Aram Zucker-Scharff is Director for Ad Engineering at Washington Post, lead dev for PressForward and a consultant. Tech solutions for journo problems.",
-            "sameAs": "http://aramzs.github.io/aramzs/",
-            "image": {
-                "@type": "ImageObject",
-                "url": "https://pbs.twimg.com/profile_images/539484037765533698/7l6-pKY-_400x400.jpeg"
+        "@context": "https://schema.org",
+        "@graph": [
+            {
+                "@type": "Organization",
+                "@id": "https://antoniotrento.github.io/bloocks-test#organization",
+                "name": "Bloocks",
+                "url": "https://antoniotrento.github.io/bloocks-test",
+                "sameAs": [
+                    "https://www.facebook.com/lantoniotrento/",
+                    "https://www.instagram.com/lantoniotrento/",
+                    "https://www.linkedin.com/in/antoniotrento/",
+                    "https://www.youtube.com//",
+                    "https://www.pinterest.com/lantoniotrento/",
+                    "https://twitter.com/lantoniotrento/"
+                ],
+                "logo": {
+                    "@type": "ImageObject",
+                    "@id": "https://antoniotrento.github.io/bloocks-test#logo",
+                    "url": "https://antoniotrento.github.io/bloocks-test/img/main-logo.png",
+                    "width": 120,
+                    "height": 120,
+                    "caption": "Bloocks a static site generator of the new era"
+                },
+                "image": {
+                    "@id": "https://www.example.com/#/schema/image/abc123"
+                }
             },
-            "givenName": "Aram",
-            "familyName": "Zucker-Scharff",
-            "alternateName": "AramZS",
-            "publishingPrinciples": "http://aramzs.github.io/about/"
-        },
-        "editor": {
-            "@type": "Person",
-            "name": "Aram Zucker-Scharff",
-            "description": "Aram Zucker-Scharff is Director for Ad Engineering at Washington Post, lead dev for PressForward and a consultant. Tech solutions for journo problems.",
-            "sameAs": "http://aramzs.github.io/aramzs/",
-            "image": {
-                "@type": "ImageObject",
-                "url": "https://pbs.twimg.com/profile_images/539484037765533698/7l6-pKY-_400x400.jpeg"
+            {
+                "@type": "WebSite",
+                "@id": "https://www.example.com/#/schema/website/1",
+                "url": "https://antoniotrento.github.io/bloocks-test/it/",
+                "name": "Bloocks fastest websites generator ever!",
+                "publisher": {
+                    "@id": "https://www.example.com/#/schema/organization/1"
+                },
+                "potentialAction": {
+                    "@type": "SearchAction",
+                    "target": "https://www.example.com/?s={search_term_string}",
+                    "query-input": "required name=search_term_string"
+                }
             },
-            "givenName": "Aram",
-            "familyName": "Zucker-Scharff",
-            "alternateName": "AramZS",
-            "publishingPrinciples": "http://aramzs.github.io/about/"
-        },
-        "inLanguage": "en-US",
-        "license": "http://creativecommons.org/licenses/by-sa/4.0/",
-        "additionalType": "CreativeWork",
-        "alternateName": "Fight With Tools",
-        "publisher": {
-            "@type": "Organization",
-            "name": "Fight With Tools",
-            "description": "A site discussing how to imagine, build, analyze and use cool code and web tools. Better websites, better stories, better developers. Technology won't save the world, but you can.",
-            "sameAs": "http://aramzs.github.io",
-            "logo": {
-                "@type": "ImageObject",
-                "url": "https://41.media.tumblr.com/709bb3c371b9924add351bfe3386e946/tumblr_nxdq8uFdx81qzocgko1_1280.jpg"
-            },
-            "publishingPrinciples": "http://aramzs.github.io/about/"
-        }
+            {
+                "@type": "WebPage",
+                "@id": "https://antoniotrento.github.io/bloocks-test/it/",
+                "url": "https://antoniotrento.github.io/bloocks-test/it/",
+                "inLanguage": "it",
+                "name": "Example Page",
+                "isPartOf": {
+                    "@id": "https://www.example.com/#/schema/website/1"
+                },
+                "about": {
+                    "@id": "https://www.example.com/#/schema/organization/1"
+                },
+                "datePublished": "2015-09-14T08:13:22+00:00",
+                "dateModified": "2019-03-28T12:46:37+00:00",
+                "description": ""
+            }
+        ]
     }
 </script>
 

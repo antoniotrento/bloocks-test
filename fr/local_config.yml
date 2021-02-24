@@ -7,6 +7,7 @@ domain_name: bloocks.dev # you need to place this in your package.json file in t
 name: Bloocks
 url: "http://localhost:4000"
 logo: "img/main-logo.png"
+logocaption: Bloocks a static site generator of the new era
 seologo: "img/main-logo.png" # must be at least 112x112 for seo purposes
 footer-logo: "/img/boom-logo-80.png"
 footer-slogan: "Build your next awesome app with bloocks"
