@@ -55,46 +55,145 @@
 
 
 
+<!-- Creare cicli for per immagini del post e video, implementare inserimento dinamico autore e immagini annesse -->
 <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "BlogPosting",
-      "url": "https://antoniotrento.github.io/bloocks-test/example-post-2/",
-      "name": "Bloocks fastest websites generator ever!",
-      "headline": "",
-      "keywords": "",
-      "description": "",
-      "datePublished": "2013-12-08 13:00:00 +0100",
-      "dateModified": "2013-12-08 13:00:00 +0100",
-      "author": {
-        "@type": "Person",
-        "name": "Antonio Trento",
-        "givenName": "Antonio",
-        "familyName": "Trento",
-        "email": "lantoniotrento@gmail.com"
-      },
-      "publisher": {
-        "@type": "Organization",
-        "name": "Bloocks fastest websites generator ever!",
-        "url": "https://antoniotrento.github.io/bloocks-test",
-        "logo": {
-          "@type": "ImageObject",
-          "url": "https://antoniotrento.github.io/bloocks-test/img/main-logo.png"
-      }
-      },
-      "mainEntityOfPage": {
-        "@type": "WebPage",
-        "@id": "https://antoniotrento.github.io/bloocks-test/example-post-2/"
-      },
-      "image": {
-        "@type": "ImageObject",
-        "url": "https://antoniotrento.github.io/bloocks-test",
-        "contentUrl": "https://example.com/photos/1x1/adult-black-labrador.jpg",
-        "license": "https://example.com/license",
-        "acquireLicensePage": "https://example.com/how-to-use-my-images" 
-      }
-    }
-    </script>
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+        {
+            "@type": "Organization",
+            "@id": "https://antoniotrento.github.io/bloocks-test#organization",
+            "name": "Bloocks",
+            "url": "https://antoniotrento.github.io/bloocks-test",
+            "sameAs": [
+                "https://www.facebook.com/lantoniotrento/",
+                "https://www.instagram.com/lantoniotrento/",
+                "https://www.linkedin.com/in/antoniotrento/",
+                "https://www.youtube.com//",
+                "https://www.pinterest.com/lantoniotrento/",
+                "https://twitter.com/lantoniotrento/"
+            ],
+            "logo": {
+                "@type": "ImageObject",
+                "@id": "https://antoniotrento.github.io/bloocks-test#logo",
+                "url": "https://antoniotrento.github.io/bloocks-test/img/main-logo.png",
+                "width": 120,
+                "height": 120,
+                "caption": null
+            },
+            "image": {
+                "@id": "https://antoniotrento.github.io/bloocks-test/#logo"
+            }
+        },
+        {
+            "@type": "WebSite",
+            "@id": "https://antoniotrento.github.io/bloocks-test/#website",
+            "url": "https://antoniotrento.github.io/bloocks-test",
+            "name": "Bloocks fastest websites generator ever!",
+            "publisher": {
+                "@id": "https://antoniotrento.github.io/bloocks-test/#organization"
+            },
+            "potentialAction": {
+              "@type": "SearchAction",
+              "target": "https://antoniotrento.github.io/bloocks-test/?s={search_term_string}",
+              "query-input": "required name=search_term_string"
+            }
+        },
+        {
+            "@type": "WebPage",
+            "@id": "https://antoniotrento.github.io/bloocks-test/example-post-2/",
+            "url": "https://antoniotrento.github.io/bloocks-test/example-post-2/",
+            "inLanguage": "en",
+            "name": "",
+            "breadcrumb": {
+              "@id": "https://www.example.com/blog/example-article/#/schema/breadcrumb/abc123"
+            },
+            "isPartOf": {
+                "@id": "https://antoniotrento.github.io/bloocks-test/store/"
+            },
+            "datePublished": "2013-12-08 13:00:00 +0100",
+            "dateModified": "2013-12-08 13:00:00 +0100",
+            "description": ""
+        },
+        {
+            "@type": "Article",
+            "@id": "https://antoniotrento.github.io/bloocks-test/example-post-2/",
+            "headline": "",
+            "description": "",
+            "isPartOf": {
+                "@id": "https://antoniotrento.github.io/bloocks-test/example-post-2/"
+            },
+            "mainEntityOfPage": {
+                "@id": "https://antoniotrento.github.io/bloocks-test/example-post-2/"
+            },
+            "datePublished": "2013-12-08 13:00:00 +0100",,
+            "dateModified": "",
+            "commentCount": 6,
+            "articleSection": "",
+            "author": {
+                "@id": "https://www.example.com/#/schema/person/abc123"
+            },
+            "publisher": {
+                "@id": "https://antoniotrento.github.io/bloocks-test/#organization"
+            },
+            "image": [
+                {
+                    "@id": "https://antoniotrento.github.io/bloocks-test/example-post-2/#primaryimage"
+                },
+                {
+                    "@id": "https://www.example.com/#/schema/image/def456"
+                }
+            ],
+            "video": [
+                {
+                    "@id": "https://www.example.com/#/schema/video/abc123"
+                },
+                {
+                    "@id": "https://www.example.com/#/schema/video/def456"
+                }
+            ]
+        },
+        {
+            "@type": "Person",
+            "@id": "https://www.example.com/#/schema/person/abc123",
+            "name": "Example person name",
+            "image": {
+                "@id": "https://www.example.com/#/schema/image/abc123"
+            },
+            "sameAs": [
+                "https://www.wikipedia.com/example-organization",
+                "https://www.linkedin.com/company/1234"
+            ]
+        },
+        {
+            "@type": "BreadcrumbList",
+            "@id": "https://antoniotrento.github.io/bloocks-test/example-post-2//#/schema/breadcrumb/ ",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@type": "WebPage",
+                        "@id": "https://antoniotrento.github.io/bloocks-test",
+                        "url": "https://antoniotrento.github.io/bloocks-test",
+                        "name": "Home"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@type": "WebPage",
+                        "@id": "https://antoniotrento.github.io/bloocks-test/example-post-2/"
+                        "url": "https://antoniotrento.github.io/bloocks-test/example-post-2/",
+                        "name": ""
+                    }
+                }
+            ]
+        }
+    ]
+}
+</script>
   
   
   
