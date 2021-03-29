@@ -254,11 +254,13 @@ function redirect(actuallang){
 
 
    <!-- <link rel="stylesheet" href="https://antoniotrento.github.io/bloocks-test/assets/css/style.css" /> -->
-   <link rel="stylesheet" href="https://antoniotrento.github.io/bloocks-test/assets/css/style.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w==" crossorigin="anonymous" />
+
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w==" crossorigin="anonymous" />
 <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
 
 
+   <link rel="stylesheet" href="https://antoniotrento.github.io/bloocks-test/assets/css/style.css" />
+    
     <!--  Emergency inline CSS injection by jekyll engine  -->
     
     
@@ -303,7 +305,7 @@ function redirect(actuallang){
               
               <a href="https://antoniotrento.github.io/bloocks-test/it" class="flex">
                 <span class="sr-only">Bloocks</span>
-                <img src="https://cdn.jsdelivr.net/gh/antoniotrento/bloocks-test@gh-pages/img/main-logo.png" alt="Bloocks logo">
+                <img src="https://cdn.statically.io/img/antoniotrento.github.io/bloocks-test/img/main-logo.png" alt="Bloocks logo">
               </a>
               
               
@@ -349,7 +351,7 @@ function redirect(actuallang){
                       
                         
                         
-                        <a href="/example-post-3/" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
+                        <a href="https://antoniotrento.github.io/bloocks-test/example-post-3/" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
                           <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480">
     <g fill-rule="evenodd">
       <g stroke-width="1pt">
@@ -758,7 +760,7 @@ function redirect(actuallang){
                   <!-- <img class="h-8 w-auto" src="" alt=""> -->
                   
                   <a href="https://antoniotrento.github.io/bloocks-test/it" class="flex">
-                    <img src="https://cdn.jsdelivr.net/gh/antoniotrento/bloocks-test@gh-pages/img/main-logo.png" alt="Bloocks logo">
+                    <img src="https://cdn.statically.io/img/antoniotrento.github.io/bloocks-test/img/main-logo.png" alt="Bloocks logo">
                   </a>
                   
                   
@@ -953,7 +955,7 @@ Esempio post 3</h1>
 
 
 
-<img class="lazy inset-0 object-cover" loading="lazy" alt="" src="https://cdn.jsdelivr.net/gh/antoniotrento/bloocks-test@gh-pages/img/cover-800-767ce8686.jpg" srcset="https://cdn.jsdelivr.net/gh/antoniotrento/bloocks-test@gh-pages/img/cover-200-767ce8686.jpg 200w, https://cdn.jsdelivr.net/gh/antoniotrento/bloocks-test@gh-pages/img/cover-400-767ce8686.jpg 400w, https://cdn.jsdelivr.net/gh/antoniotrento/bloocks-test@gh-pages/img/cover-800-767ce8686.jpg 800w, https://cdn.jsdelivr.net/gh/antoniotrento/bloocks-test@gh-pages/img/cover-1600-767ce8686.jpg 1600w" sizes="(max-width: 600px) 100vw, (max-width: 900px) 80vw, 800px" width="" height="">
+<img class="lazy inset-0 object-cover" loading="lazy" alt="" src="https://cdn.statically.io/img/antoniotrento.github.io/bloocks-test/img/cover-800-767ce8686.jpg" srcset="https://cdn.statically.io/img/antoniotrento.github.io/bloocks-test/img/cover-200-767ce8686.jpg 200w, https://cdn.statically.io/img/antoniotrento.github.io/bloocks-test/img/cover-400-767ce8686.jpg 400w, https://cdn.statically.io/img/antoniotrento.github.io/bloocks-test/img/cover-800-767ce8686.jpg 800w, https://cdn.statically.io/img/antoniotrento.github.io/bloocks-test/img/cover-1600-767ce8686.jpg 1600w" sizes="(max-width: 600px) 100vw, (max-width: 900px) 80vw, 800px" width="" height="">
 
 
     </div>
@@ -970,6 +972,275 @@ Esempio post 3</h1>
 
 <p>Esempio 3</p>
 
+
+    
+<!-- Load Required 3rd-Party Scripts. We use the following: 
+    * jquery for DOM manipulation
+    * jquery-csv for parsing Google Sheets CSV data to JSON
+    * validator for escaping user-entered comments to prevent malicious code input in comments
+
+    Make sure to update these to the latest versions every once in a while.
+-->
+<script 
+	src="https://code.jquery.com/jquery-3.5.1.min.js" 
+	integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" 
+	crossorigin="anonymous"></script>
+<script 
+	src="https://cdnjs.cloudflare.com/ajax/libs/jquery-csv/1.0.11/jquery.csv.min.js" 
+	integrity="sha512-Y8iWYJDo6HiTo5xtml1g4QqHtl/PO1w+dmUpQfQSOTqKNsMhExfyPN2ncNAe9JuJUSKzwK/b6oaNPop4MXzkwg==" 
+	crossorigin="anonymous"></script>
+<script 
+	src="https://cdnjs.cloudflare.com/ajax/libs/validator/13.5.2/validator.min.js" 
+	integrity="sha512-vZEoK8xRncku4g5GANHh5zobUjeCMbZkSEahrADeAcRlk/1Ignf8sAKojkV4RZLkPw145+ILJFisI2pnjsPtGQ==" 
+	crossorigin="anonymous"></script>
+
+<!-- Our own JS starts here-->
+<script>
+	var thisPageUrl = "/example-post-3/";
+	var visibleComments = [];
+
+	//Format the comment's date to our desired format
+	function formatDate(stringDate) {
+		var date = new Date(stringDate)
+		var dateOptions = { year: 'numeric', month: 'long', day: 'numeric'};
+		var timeOptions = { hour: 'numeric', minute: 'numeric' };
+		return `${date.toLocaleDateString("it-IT", dateOptions)} at ${date.toLocaleTimeString("it-IT", timeOptions)}`
+	}
+
+	//Called when the comments have been loaded or relaoded.
+	//Comments that we have already displayed on the page will be ignored
+	function displayComments(comments) {
+		//if we have no comments, show the 'no comments available' section
+		if (comments == null || comments === "") {
+			if (visibleComments.length == 0) {
+				$("#no-comments").show()
+			}
+			return;
+		}
+
+		//Add headers so json objects are named properly
+		comments = `timestamp,name,comment,isAuthor\n${comments}`
+		commentList = $.csv.toObjects(comments)
+
+		//iterate over each comment that came from Google Sheets
+		commentList.forEach(function(element) {
+			//don't re-add existing comments
+			if (visibleComments.includes(JSON.stringify(element))) {
+				return;
+			}
+
+			//If the author was the one who commented back, add this 'verified' logic
+			var verifiedAuthorTag = ""
+			if (element.isAuthor === "TRUE") {
+				verifiedAuthorTag = "&nbsp;<strong>(Author)</strong>"
+			}
+
+			//Create the new item using HTML and append it to the user-visible comment section
+			var newItem = $(`
+				<div class="comment-item">
+					<p class="commenter-name">${validator.escape(element.name)}${verifiedAuthorTag}<small>${formatDate(element.timestamp)}</small></p>
+					<div>
+							<p>${validator.escape(element.comment).replace(new RegExp('\r?\n','g'), '<br />')}</p>
+					</div>
+					</div>
+			`).hide()
+			$("#commentSection").append(newItem)
+			newItem.fadeIn()
+			visibleComments.push(JSON.stringify(element))
+
+			//Hide the 'no comments available' section since we have added a comment
+			$("#no-comments").hide()
+		});
+	}
+
+	//Calls to the Google Sheets gviz API to load the comment data
+	//Since we are storing comments for all of our blog articles in one sheet, we filter
+	//by page URL.
+	function reloadComments() {
+		//Use SQL in the gviz URL to load the correct csv.
+		//In this implementation, columns are mapped to the following:
+		//	A - timestamp, the time the comment was left
+		//	B - page url, the page the comment was left on
+		//	C - name, the text left in the comment name field
+		//	D - comment, the text left in the comment field
+		//	E - isAuthor, boolean indicating if the comment was left by the actual author
+		var sqlStatement = encodeURIComponent(`SELECT A, C, D, E WHERE B = '${thisPageUrl}'`)
+		fetch(`https://docs.google.com/spreadsheets/d/1cYnFgMhPM3CRVBsHjXuWykm0gPCA8F5oz3u0AdpwzwI/gviz/tq?tqx=out:csv&sheet=comments&tq=${sqlStatement}&headers=0`)
+		.then(response => response.text())
+		.then(response => displayComments(response))
+	}
+
+	//Reload the comments when the page first loads
+	reloadComments()
+
+	//encodes the form data for http transport
+	const encodeFormData = (data) => {
+	    return Object.keys(data)
+	        .map(key => encodeURIComponent(key) + '=' + encodeURIComponent(data[key]))
+	        .join('&');
+	}
+
+	//Posts a comment
+	function postComment() {
+		var username = $("#comment-name").val()
+		var comment = $("#comment-comment").val()
+
+		fetch(`https://docs.google.com/forms/d/e/1FAIpQLSfqMJAlPlOzPVJq_uycDzPoLZHfxC-g4dVHdIZ4wGqtvT8K7w/formResponse`, {
+		  method: 'POST',
+		  mode: 'no-cors',
+		  headers: {
+		    "Content-Type": "application/x-www-form-urlencoded"
+		  },
+		  body: encodeFormData({
+		  	"entry.843871588" : thisPageUrl,
+		  	"entry.1138360390" : username,
+		  	"entry.1914105834" : comment
+		  })
+		}).then(response => {
+			$("#comment-name").val('')
+			$("#comment-comment").val('')
+			reloadComments()
+		})
+		.catch(error => {console.log(error)})
+
+		return false
+	}
+</script>
+<!--
+	HTML for displaying the actual comment section.
+	It has a state for oth when the article has comments and when it does not.
+-->
+<h4 class="post-subtitle">Comments</h4>
+<div id="commentSection" class="comments">
+	<div id="no-comments" class="post-info">
+		<p>There are currently no comments on this article, be the first to add one below</p>
+	</div>
+</div>
+<h4 class="post-subtitle">Add a Comment</h4>
+<div class="comments">
+	<div class="post-info">
+		<p>Note that I may remove comments for any reason, so try to be civil. If you are looking for a response to your comment, either leave your email address or check back on this page periodically.</p>
+	</div>	
+	<div class="comments-form">
+		<form onsubmit="return postComment()" id="comment-form" autocomplete="off">
+			<ul>
+				<li><input id="comment-name" name="username" type="text" placeholder="Name" required="" value=""></li>
+				<li><textarea id="comment-comment" name="comment" placeholder="Comment" required=""></textarea></li>
+				<li><input id="comment-submit" type="submit" value="Post"></li>
+			</ul>
+		</form>
+	</div>
+</div>
+<!-- 
+	Styling information.
+	This might typically be in an scss file but is added here so only a single
+	file needs to be added to a project trying to implement this feature.
+-->
+<style>
+	@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro");
+ .comment-item {
+	 position: relative;
+	 padding: 0.5em 2.5em;
+	 background: white;
+	 font-family: "Source Sans Pro", sans-serif;
+	 width: 95%;
+	 margin: 1em auto;
+	 box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.1);
+	 border-radius: 8px;
+}
+ .comment-item:after {
+	 content: "";
+	 position: relative;
+	 display: block;
+	 clear: both;
+}
+ .comment-item p {
+	 line-height: 1.6;
+}
+ .comment-item small {
+	 padding-left: 0.7em;
+	 color: #999;
+	 font-size: 0.8em;
+}
+ .commenter-name {
+	 color: #367588;
+	 text-decoration: none;
+	 font-size: 1em;
+	 font-weight: 700;
+}
+ .commenter-name strong {
+	 color: #e91e63;
+	 text-decoration: none;
+	 font-size: 1em;
+	 font-weight: 700;
+}
+ .comments {
+	 border-top: 0.5px solid #e5e5e5;
+	 padding-top: 1rem;
+	 position: relative;
+}
+ .comments-form {
+	 margin-left: 1em;
+	 margin-right: 1em;
+	 width: 95%;
+	 font-family: "Source Sans Pro", sans-serif;
+}
+ .comments-form ul {
+	 list-style: none;
+	 margin-left: -40px;
+}
+ .comments-form ul li {
+	 margin-bottom: 15px;
+}
+ .comments-form ul li input[type='submit'] {
+	 border: 0;
+	 border-radius: 8px;
+	 padding: 10px 10px;
+	 background: #9ccc65;
+	 color: #fff;
+	 font-family: "Source Sans Pro", sans-serif;
+	 font-weight: bold;
+	 font-size: 0.9em;
+	 text-transform: uppercase;
+	 margin-bottom: 20px;
+	 width: 25%;
+	 outline-style: none;
+}
+ .comments-form ul li input[type='text'], .comments-form ul li textarea {
+	 width: 50%;
+	 padding: 10px;
+	 border: 0;
+	 border-radius: 8px;
+	 background: #f7f7f7;
+	 font-family: "Source Sans Pro", sans-serif;
+}
+ .comments-form ul li input[type='text']::-webkit-input-placeholder, .comments-form ul li textarea::-webkit-input-placeholder {
+	 font-family: "Source Sans Pro", sans-serif;
+}
+ .comments-form ul li input[type='text']::-moz-placeholder, .comments-form ul li textarea::-moz-placeholder {
+	 font-family: "Source Sans Pro", sans-serif;
+}
+ .comments-form ul li input[type='text']:-ms-input-placeholder, .comments-form ul li textarea:-ms-input-placeholder {
+	 font-family: "Source Sans Pro", sans-serif;
+}
+ .comments-form ul li input[type='text']::-ms-input-placeholder, .comments-form ul li textarea::-ms-input-placeholder {
+	 font-family: "Source Sans Pro", sans-serif;
+}
+ .comments-form ul li input[type='text']::placeholder, .comments-form ul li textarea::placeholder {
+	 font-family: "Source Sans Pro", sans-serif;
+}
+ .comments-form ul li input[type='text']:focus, .comments-form ul li textarea:focus {
+	 background: #fff;
+	 font-family: "Source Sans Pro", sans-serif;
+}
+ .comments-form ul li textarea {
+	 width: 100%;
+	 height: 80px;
+	 resize: vertical;
+	 min-height: 80px;
+}
+</style>
+
   </div>
   <!--  h-screen class for 100hv height  -->
   <div class="relative px-3 w-full lg:w-2/6 2xl:px-9 2xl:w-2/6 hidden lg:block post">
@@ -979,7 +1250,7 @@ Esempio post 3</h1>
 
 
 
-<img class="lazy bloocks object-cover w-full h-72 md:h-80" loading="lazy" alt="" src="https://cdn.jsdelivr.net/gh/antoniotrento/bloocks-test@gh-pages/img/bloocks-prelaunch-750-b569bfa63.jpg" srcset="https://cdn.jsdelivr.net/gh/antoniotrento/bloocks-test@gh-pages/img/bloocks-prelaunch-200-b569bfa63.jpg 200w, https://cdn.jsdelivr.net/gh/antoniotrento/bloocks-test@gh-pages/img/bloocks-prelaunch-400-b569bfa63.jpg 400w, https://cdn.jsdelivr.net/gh/antoniotrento/bloocks-test@gh-pages/img/bloocks-prelaunch-750-b569bfa63.jpg 750w" sizes="(max-width: 600px) 100vw, (max-width: 900px) 80vw, 800px" width="750" height="427">
+<img class="lazy bloocks object-cover w-full h-72 md:h-80" loading="lazy" alt="" src="https://cdn.statically.io/img/antoniotrento.github.io/bloocks-test/img/bloocks-prelaunch-750-b569bfa63.jpg" srcset="https://cdn.statically.io/img/antoniotrento.github.io/bloocks-test/img/bloocks-prelaunch-200-b569bfa63.jpg 200w, https://cdn.statically.io/img/antoniotrento.github.io/bloocks-test/img/bloocks-prelaunch-400-b569bfa63.jpg 400w, https://cdn.statically.io/img/antoniotrento.github.io/bloocks-test/img/bloocks-prelaunch-750-b569bfa63.jpg 750w" sizes="(max-width: 600px) 100vw, (max-width: 900px) 80vw, 800px" width="750" height="427">
 
 
       <div class="p-4 -mt-6 overflow-y-visiblerflow-hidden md:-mt-8">
@@ -1039,7 +1310,7 @@ Esempio post 3</h1>
 
 
 
-<img class="lazy bloocks" loading="lazy" alt="" src="https://cdn.jsdelivr.net/gh/antoniotrento/bloocks-test@gh-pages/img/boom-logo-80-80-3375bd561.png" srcset="https://cdn.jsdelivr.net/gh/antoniotrento/bloocks-test@gh-pages/img/boom-logo-80-80-3375bd561.png 80w" sizes="(max-width: 600px) 100vw, (max-width: 900px) 80vw, 100px" width="80" height="80">
+<img class="lazy bloocks" loading="lazy" alt="" src="https://cdn.statically.io/img/antoniotrento.github.io/bloocks-test/img/boom-logo-80-80-3375bd561.png" srcset="https://cdn.statically.io/img/antoniotrento.github.io/bloocks-test/img/boom-logo-80-80-3375bd561.png 80w" sizes="(max-width: 600px) 100vw, (max-width: 900px) 80vw, 100px" width="80" height="80">
 
 
                                       
@@ -1065,7 +1336,7 @@ Esempio post 3</h1>
                 </li>
                 
                 <li>
-                    <a target="_blank"  href="https://antoniotrento.github.io/bloocks-test/ithttps://antoniotrento.net"
+                    <a target="_blank"  href="https://antoniotrento.net"
                         class="flex inline-block px-3 py-2 text-gray-500 no-underline hover:text-gray-600" alt="Antonio is the author of Bloocks the static website generator">
                         
                             
@@ -1080,7 +1351,7 @@ Esempio post 3</h1>
                 </li>
                 
                 <li>
-                    <a  href="https://antoniotrento.github.io/bloocks-test/it/sponsor"
+                    <a  href="/sponsor"
                         class="flex inline-block px-3 py-2 text-gray-500 no-underline hover:text-gray-600" alt="The second theme implemented in bloocks.dev">
                         
                             
@@ -1107,7 +1378,7 @@ Esempio post 3</h1>
                 </li>
                 
                 <li>
-                    <a  href="https://antoniotrento.github.io/bloocks-test/it/contact"
+                    <a  href="/contact"
                         class="flex inline-block px-3 py-2 text-gray-500 no-underline hover:text-gray-600" alt="Contact the Bloocks team to know more about">
                         
                             
@@ -1130,7 +1401,7 @@ Esempio post 3</h1>
                     </li>
                     
                     <li>
-                        <a target="_blank" rel="noopener noreferrer nofollow" href="https://antoniotrento.github.io/bloocks-test/ithttps://heroicons.com/"
+                        <a target="_blank" rel="noopener noreferrer nofollow" href="https://heroicons.com/"
                             class="flex inline-block px-3 py-2 text-gray-500 no-underline hover:text-gray-600" alt="heroicons are svg icons crafted by tailwild css">
                         
                             
@@ -1145,7 +1416,7 @@ Esempio post 3</h1>
                     </li>
                     
                     <li>
-                        <a target="_blank" rel="noopener noreferrer nofollow" href="https://antoniotrento.github.io/bloocks-test/ithttps://www.heropatterns.com/"
+                        <a target="_blank" rel="noopener noreferrer nofollow" href="https://www.heropatterns.com/"
                             class="flex inline-block px-3 py-2 text-gray-500 no-underline hover:text-gray-600" alt="Heropatterns provide a library of svg patterns">
                         
                             
@@ -1160,7 +1431,7 @@ Esempio post 3</h1>
                     </li>
                     
                     <li>
-                        <a target="_blank" rel="noopener noreferrer nofollow" href="https://antoniotrento.github.io/bloocks-test/ithttps://icons8.com/"
+                        <a target="_blank" rel="noopener noreferrer nofollow" href="https://icons8.com/"
                             class="flex inline-block px-3 py-2 text-gray-500 no-underline hover:text-gray-600" alt="Icons, illustrations, photos, music, and design tools">
                         
                             
@@ -1175,7 +1446,7 @@ Esempio post 3</h1>
                     </li>
                     
                     <li>
-                        <a target="_blank" rel="noopener noreferrer nofollow" href="https://antoniotrento.github.io/bloocks-test/ithttps://undraw.co/"
+                        <a target="_blank" rel="noopener noreferrer nofollow" href="https://undraw.co/"
                             class="flex inline-block px-3 py-2 text-gray-500 no-underline hover:text-gray-600" alt="Undraw provide copyrigth free hight quality vectors">
                         
                             
@@ -1199,7 +1470,7 @@ Esempio post 3</h1>
                     </li>
                     
                     <li>
-                        <a target="_blank" rel="noopener noreferrer nofollow" href="https://antoniotrento.github.io/bloocks-test/ithttps://tailwindcss.com/"
+                        <a target="_blank" rel="noopener noreferrer nofollow" href="https://tailwindcss.com/"
                             class="flex inline-block px-3 py-2 text-gray-500 no-underline hover:text-gray-600" alt="Rapidly build modern websites without ever leaving your HTML">
                         
                             
@@ -1214,7 +1485,7 @@ Esempio post 3</h1>
                     </li>
                     
                     <li>
-                        <a target="_blank" rel="noopener noreferrer nofollow" href="https://antoniotrento.github.io/bloocks-test/ithttps://jekyllrb.com/"
+                        <a target="_blank" rel="noopener noreferrer nofollow" href="https://jekyllrb.com/"
                             class="flex inline-block px-3 py-2 text-gray-500 no-underline hover:text-gray-600" alt="Transform your plain text into static websites and blogs.">
                         
                             
@@ -1229,7 +1500,7 @@ Esempio post 3</h1>
                     </li>
                     
                     <li>
-                        <a target="_blank" rel="noopener noreferrer nofollow" href="https://antoniotrento.github.io/bloocks-test/ithttps://nodejs.org"
+                        <a target="_blank" rel="noopener noreferrer nofollow" href="https://nodejs.org"
                             class="flex inline-block px-3 py-2 text-gray-500 no-underline hover:text-gray-600" alt="a JavaScript runtime built on Chrome's V8 JavaScript engine.">
                         
                             
@@ -1244,7 +1515,7 @@ Esempio post 3</h1>
                     </li>
                     
                     <li>
-                        <a target="_blank" rel="noopener noreferrer nofollow" href="https://antoniotrento.github.io/bloocks-test/ithttps://pages.github.com/"
+                        <a target="_blank" rel="noopener noreferrer nofollow" href="https://pages.github.com/"
                             class="flex inline-block px-3 py-2 text-gray-500 no-underline hover:text-gray-600" alt="Hosted directly from your GitHub repository. Just edit, push, and your changes are live.">
                         
                             
@@ -1265,7 +1536,7 @@ Esempio post 3</h1>
                 <div class="flex justify-start pl-4 mt-2">
                     
                     <a class="flex items-center block mr-6 no-underline"
-                        target="_blank" rel="noopener noreferrer nofollow" href="https://antoniotrento.github.io/bloocks-test/ithttps://github.com/bloocks" alt="Find on Github">
+                        target="_blank" rel="noopener noreferrer nofollow" href="https://github.com/bloocks" alt="Find on Github">
                     
                         
                             <svg xmlns="http://www.w3.org/2000/svg" fill="rgba(51, 51, 51, 0.9)" class="flex-shrink-0 h-7 w-7"  viewBox="0 0 496 512"><!--  Font Awesome Free 5.15.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)  --><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
@@ -1274,7 +1545,7 @@ Esempio post 3</h1>
                     </a>
                     
                     <a class="flex items-center block mr-6 no-underline"
-                        target="_blank" rel="noopener noreferrer nofollow" href="https://antoniotrento.github.io/bloocks-test/ithttps://linkedin.com/in/antoniotrento" alt="Connect on LinkedIn">
+                        target="_blank" rel="noopener noreferrer nofollow" href="https://linkedin.com/in/antoniotrento" alt="Connect on LinkedIn">
                     
                         
                             <svg xmlns="http://www.w3.org/2000/svg" fill="#0072b1" class="flex-shrink-0 h-7 w-7"  viewBox="0 0 448 512"><!--  Font Awesome Free 5.15.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)  --><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg>
@@ -1283,7 +1554,7 @@ Esempio post 3</h1>
                     </a>
                     
                     <a class="flex items-center block mr-6 no-underline"
-                        target="_blank" rel="noopener noreferrer nofollow" href="https://antoniotrento.github.io/bloocks-test/ithttps://facebook.com/lantoniotrento" alt="Like on Tacebook">
+                        target="_blank" rel="noopener noreferrer nofollow" href="https://facebook.com/lantoniotrento" alt="Like on Tacebook">
                     
                         
                             <svg xmlns="http://www.w3.org/2000/svg" fill="#4267B2" class="flex-shrink-0 h-7 w-7"  viewBox="0 0 512 512"><!--  Font Awesome Free 5.15.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)  --><path d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z"/></svg>
@@ -1292,7 +1563,7 @@ Esempio post 3</h1>
                     </a>
                     
                     <a class="flex items-center block mr-6 no-underline"
-                        target="_blank" rel="noopener noreferrer nofollow" href="https://antoniotrento.github.io/bloocks-test/ithttps://twitter.com/lantoniotrento" alt="Follow on Twitter">
+                        target="_blank" rel="noopener noreferrer nofollow" href="https://twitter.com/lantoniotrento" alt="Follow on Twitter">
                     
                         
                             <svg xmlns="http://www.w3.org/2000/svg" fill="#1DA1F2" class="flex-shrink-0 h-7 w-7"  viewBox="0 0 512 512"><!--  Font Awesome Free 5.15.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)  --><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bloocks fastest websites generator ever!</title>
+    <description>Build badass and fastest marketing websites with Bloocks, a static websites generator to build Ecommerce and websites on top of tecnical performaces.</description>
+    <link>https://antoniotrento.github.io/bloocks-test/</link>
+    <atom:link href="https://antoniotrento.github.io/bloocks-test/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 29 Mar 2021 20:31:03 +0200</pubDate>
+    <lastBuildDate>Mon, 29 Mar 2021 20:31:03 +0200</lastBuildDate>
+    <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>Bloocks! static site generator is out</title>
+        <description>&lt;p&gt;Bloocks! a static websites generator under development! Hi, I’m Antonio and I’m creating a static website generator, it’s called Bloocks!, which combines the latest frontend development technologies, to maximize development speed and get a static website with fantastic performance in line with market needs inherent to performance and scalability.&lt;/p&gt;
+
+&lt;p&gt;Bloocks! will allow you to develop your block frontend, using a templating engine with ready-to-use pre-built graphic blocks, in this way, Bloocks! will give you the opportunity to quickly prototype and test business ideas and marketing campaigns directly on the web already having an efficient and functional basic tool, without spending a cent on frontend development and hosting, and then, at will, develop a backend appropriate to your business idea, but knowing already, thanks to the launch of marketing campaigns, if your business idea will be successful.&lt;/p&gt;
+
+&lt;p&gt;Yes, because Bloocks! it is structured to be hosted on next generation hosting services, such as Netlify, Github Pages and will also have integrations that will allow it to be hosted on distributed P2P networks using Blockchain technology and its cutting-edge protocols; moreover, it can be hosted on classic hosting platforms.&lt;/p&gt;
+
+&lt;p&gt;Bloocks! exploits the potential of CDN to serve images, load scripts and style sheets, loaded dynamically, so that they do not overload the server where it is hosted, but exploit all the potential and third-party technologies that allow the development of a truly performing website, at the enterprice level.&lt;/p&gt;
+
+&lt;p&gt;Bloocks! uses Tailwind CSS to process style sheets, this allows it, thanks to Tailwind CSS technology, to generate only the style sheets strictly necessary for the project and therefore have the CSS perfectly minimized; also thanks to the integration with Tailwind CSS, develop with Bloocks! will allow you to use only and exclusively HTML classes to generate your graphic templates, without putting your hand to CSS code.&lt;/p&gt;
+
+&lt;p&gt;The code developed with Bloocks! in the production phase it is completely minimized by the static generator, so at the end of the work you will have a web project already completely minimized&lt;/p&gt;
+
+&lt;p&gt;Bloocks! is composed by:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;A static web page generator&lt;/li&gt;
+  &lt;li&gt;An ecommerce that uses Snipchart as an engine&lt;/li&gt;
+  &lt;li&gt;A blog in AMP to maximize SEO performance&lt;/li&gt;
+  &lt;li&gt;A portfolio to have a showroom of works&lt;/li&gt;
+  &lt;li&gt;Customizable posting areas&lt;/li&gt;
+  &lt;li&gt;Marketing tools such as modal popups, email marketing forms&lt;/li&gt;
+  &lt;li&gt;Google Analytics&lt;/li&gt;
+  &lt;li&gt;Google ADSense&lt;/li&gt;
+  &lt;li&gt;Coockie consent already integrated&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Technologies used to create Bloocks!:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Babel&lt;/li&gt;
+  &lt;li&gt;NodeJS&lt;/li&gt;
+  &lt;li&gt;Gulp&lt;/li&gt;
+  &lt;li&gt;Tailwind CSS&lt;/li&gt;
+  &lt;li&gt;AMP&lt;/li&gt;
+  &lt;li&gt;Jekyll&lt;/li&gt;
+  &lt;li&gt;Browsersync&lt;/li&gt;
+  &lt;li&gt;Autoprefixer&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Future integrations planned:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;PostCSS&lt;/li&gt;
+  &lt;li&gt;Rucksack, PostCSS plugin&lt;/li&gt;
+  &lt;li&gt;cypress&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Bloocks! it is still under development, and does not have a precise release date, try to understand, I am alone in developing this project and I do not have the resources to be able to plan when it will be completely ready, if you are interested in collaborating on the project contact me!&lt;/p&gt;
+
+&lt;p&gt;Bloocks! will be available with a free license for personal use and with various packages for professional use, you can still create your site, ecommerce, portfolio or test marketing campaigns for your ideas, but if you want to resell the projects you develop to third parties you will have to buy a license.&lt;/p&gt;
+
+&lt;p&gt;See you soon from Antonio.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 18 Nov 2020 00:00:00 +0100</pubDate>
+        <link>https://antoniotrento.github.io/bloocks-test/bloocks-is-out/</link>
+        <guid isPermaLink="true">https://antoniotrento.github.io/bloocks-test/bloocks-is-out/</guid>
+        
+        <category>websites</category>
+        
+        <category>business</category>
+        
+        <category>marketing</category>
+        
+        <category>developing</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Example post</title>
+        <description>&lt;h2 id=&quot;introducing-flex-a-jekyll-theme&quot;&gt;Introducing Flex, a Jekyll theme&lt;/h2&gt;
+
+&lt;p&gt;Flex is a minimalist, responsive theme based on the website, &lt;a href=&quot;https://jekyllthemes.io/theme/flex&quot;&gt;The Development&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;open-sourced-on-github&quot;&gt;Open Sourced on GitHub&lt;/h2&gt;
+
+&lt;p&gt;Flex is open sourced on GitHub and is licensed under the &lt;a href=&quot;https://opensource.org/licenses/MIT&quot;&gt;MIT License&lt;/a&gt;. Feel free to contribute to it anytime!&lt;/p&gt;
+</description>
+        <pubDate>Mon, 09 Dec 2013 13:00:00 +0100</pubDate>
+        <link>https://antoniotrento.github.io/bloocks-test/example-post/</link>
+        <guid isPermaLink="true">https://antoniotrento.github.io/bloocks-test/example-post/</guid>
+        
+        
+        <category>posts</category>
+        
+      </item>
+    
+      <item>
+        <title>Example post 2</title>
+        <description>&lt;h2 id=&quot;example-2&quot;&gt;Example 2&lt;/h2&gt;
+
+&lt;p&gt;Example 2&lt;/p&gt;
+</description>
+        <pubDate>Sun, 08 Dec 2013 13:00:00 +0100</pubDate>
+        <link>https://antoniotrento.github.io/bloocks-test/example-post-2/</link>
+        <guid isPermaLink="true">https://antoniotrento.github.io/bloocks-test/example-post-2/</guid>
+        
+        
+        <category>posts</category>
+        
+      </item>
+    
+      <item>
+        <title>Example post 3</title>
+        <description>&lt;h2 id=&quot;example-3&quot;&gt;Example 3&lt;/h2&gt;
+
+&lt;p&gt;Example 3&lt;/p&gt;
+</description>
+        <pubDate>Sat, 07 Dec 2013 13:00:00 +0100</pubDate>
+        <link>https://antoniotrento.github.io/bloocks-test/example-post-3/</link>
+        <guid isPermaLink="true">https://antoniotrento.github.io/bloocks-test/example-post-3/</guid>
+        
+        
+        <category>posts</category>
+        
+      </item>
+    
+  </channel>
+</rss>
