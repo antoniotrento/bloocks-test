@@ -259,6 +259,8 @@ function redirect(actuallang){
 <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
 
 
+<link rel="stylesheet" type="text/css" href="/css/pushfolio.css"/>
+
    <link rel="stylesheet" href="https://antoniotrento.github.io/bloocks-test/assets/css/style.css" />
     
     <!--  Emergency inline CSS injection by jekyll engine  -->
@@ -302,7 +304,7 @@ function redirect(actuallang){
               
               <a href="https://antoniotrento.github.io/bloocks-test" class="flex">
                 <span class="sr-only">Bloocks</span>
-                <img src="https://cdn.statically.io/img/antoniotrento.github.io/bloocks-test/img/main-logo.png" alt="Bloocks logo">
+                <img src="https://cdn.statically.io/img/antoniotrento.github.io/bloocks-test/img/img/main-logo.png" alt="Bloocks logo">
               </a>
               
               
@@ -763,7 +765,7 @@ function redirect(actuallang){
                   <!-- <img class="h-8 w-auto" src="" alt=""> -->
                   
                   <a href="https://antoniotrento.github.io/bloocks-test" class="flex">
-                    <img src="https://cdn.statically.io/img/antoniotrento.github.io/bloocks-test/img/main-logo.png" alt="Bloocks logo">
+                    <img src="https://cdn.statically.io/img/antoniotrento.github.io/bloocks-test/img/img/main-logo.png" alt="Bloocks logo">
                   </a>
                   
                   
@@ -899,11 +901,11 @@ function redirect(actuallang){
 
   <div class="w-full flex flex-wrap min-h-screen bg-gradient-to-b from-white to-gray-100 -mt-24">
 	<div class="lg:invisible lg:relative w-full lg:flex-1 order-last">
-        <img src="https://cdn.statically.io/img/antoniotrento.github.io/bloocks-test/img/terms/terms.svg" 
+        <img src="https://cdn.statically.io/img/antoniotrento.github.io/bloocks-test/img/img/terms/terms.svg" 
         class="w-auto h-auto">
 	</div>
     <div class="invisible hidden lg:inline-flex lg:visible order-last object-none object-right-bottom">
-        <img src="https://cdn.statically.io/img/antoniotrento.github.io/bloocks-test/img/terms/terms.svg" 
+        <img src="https://cdn.statically.io/img/antoniotrento.github.io/bloocks-test/img/img/terms/terms.svg" 
         class="w-auto h-auto lg:absolute lg:bottom-0 lg:right-0">
 	</div>
 	<div class="z-20 w-full p-6 lg:w-7/12 xl:pt-24 xl:pl-40 flex justify-center items-center relative">
@@ -931,7 +933,7 @@ function redirect(actuallang){
 
 <div class="w-full flex flex-wrap min-h-screen bg-gradient-to-b from-white to-gray-100 -mt-24">
 	<div class="md:max-w-6xl lg:relative w-full lg:flex-1 order-last">
-        <img src="https://cdn.statically.io/img/antoniotrento.github.io/bloocks-test/img/terms/terms.svg" 
+        <img src="https://cdn.statically.io/img/antoniotrento.github.io/bloocks-test/img/img/terms/terms.svg" 
         class="w-auto h-auto lg:absolute lg:bottom-0 lg:right-0">
 	</div>
 	<div class="w-full p-6 xl:pt-0 xl:pl-10 xl:w-7/12 2xl:pt-0 2xl:pl-80 2xl:w-7/12 lg:w-7/12 flex justify-center items-center relative">
@@ -1615,7 +1617,7 @@ function redirect(actuallang){
 
 
 
-<img class="lazy bloocks" loading="lazy" alt="" src="https://cdn.statically.io/img/antoniotrento.github.io/bloocks-test/img/boom-logo-80-80-3375bd561.png" srcset="https://cdn.statically.io/img/antoniotrento.github.io/bloocks-test/img/boom-logo-80-80-3375bd561.png 80w" sizes="(max-width: 600px) 100vw, (max-width: 900px) 80vw, 100px" width="80" height="80">
+<img class="lazy bloocks" loading="lazy" alt="" src="https://cdn.statically.io/img/antoniotrento.github.io/bloocks-test/img/img/boom-logo-80-80-3375bd561.png" srcset="https://cdn.statically.io/img/antoniotrento.github.io/bloocks-test/img/img/boom-logo-80-80-3375bd561.png 80w" sizes="(max-width: 600px) 100vw, (max-width: 900px) 80vw, 100px" width="80" height="80">
 
 
                                       
@@ -1898,6 +1900,32 @@ function redirect(actuallang){
   })
 </script>
 
+
+
+<script src="https://antoniotrento.github.io/bloocks-test/js/pushfolio.min.js"></script>
+
+
+
+<script>
+    var Pushfolio = {
+        popupName: '',
+        headerText: 'A message from Antonio',
+        headerAvatar: '/img/avatar.png',
+        messageContentTitle: 'Create free Jamstack web app',
+        messageContent: 'Start building websites and ecommerce by leveraging Jamstack and headless implementations with bloocks.</br>',
+        messageCtaText: 'Get Bloocks now!',
+        messageCtaURL: '#bloocks-subscribe-popup',
+        messageCtaColor: '#6CB917',
+        messageImageSrc: '/img/popup-image.png',
+        positionX: 'bottom',
+        positionY: 'right',
+        frequency: 'always',
+        mobile: true,
+        delay: '4000'
+    };
+
+    pushFolio.popupModal(Pushfolio);
+</script>
 
 
 

@@ -259,6 +259,8 @@ function redirect(actuallang){
 <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
 
 
+<link rel="stylesheet" type="text/css" href="/css/pushfolio.css"/>
+
    <link rel="stylesheet" href="https://antoniotrento.github.io/bloocks-test/assets/css/style.css" />
     
     <!--  Emergency inline CSS injection by jekyll engine  -->
@@ -302,7 +304,7 @@ function redirect(actuallang){
               
               <a href="https://antoniotrento.github.io/bloocks-test/it" class="flex">
                 <span class="sr-only">Bloocks</span>
-                <img src="https://cdn.statically.io/img/antoniotrento.github.io/bloocks-test/img/main-logo.png" alt="Bloocks logo">
+                <img src="https://cdn.statically.io/img/antoniotrento.github.io/bloocks-test/img/img/main-logo.png" alt="Bloocks logo">
               </a>
               
               
@@ -757,7 +759,7 @@ function redirect(actuallang){
                   <!-- <img class="h-8 w-auto" src="" alt=""> -->
                   
                   <a href="https://antoniotrento.github.io/bloocks-test/it" class="flex">
-                    <img src="https://cdn.statically.io/img/antoniotrento.github.io/bloocks-test/img/main-logo.png" alt="Bloocks logo">
+                    <img src="https://cdn.statically.io/img/antoniotrento.github.io/bloocks-test/img/img/main-logo.png" alt="Bloocks logo">
                   </a>
                   
                   
@@ -955,7 +957,7 @@ Bloocks is under heavy development. <b>We will lauch soon for free under MIT lic
     <div class="w-full md:w-1/2">
             
 
-<img class="inset-0 object-cover pb-4 sm:pb-0 md:pb-0 md:pt-7 lg:pb-0 lg:pt-0 xl:pb-0 xl:pt-0 2xl:pb-0 2xl:pt-0" loading="lazy" alt="Bloocks pre-launch rocket image" src="https://cdn.statically.io/img/antoniotrento.github.io/bloocks-test/roadmap/bloocks-launch.svg">
+<img class="inset-0 object-cover pb-4 sm:pb-0 md:pb-0 md:pt-7 lg:pb-0 lg:pt-0 xl:pb-0 xl:pt-0 2xl:pb-0 2xl:pt-0" loading="lazy" alt="Bloocks pre-launch rocket image" src="https://cdn.statically.io/img/antoniotrento.github.io/bloocks-test/img/img/roadmap/bloocks-launch.svg">
 
     </div>
 </div>
@@ -1051,7 +1053,7 @@ Build <span data-aos="fade-right" class="inline-block px-3 py-2 bg-gradient-to-t
       <div class="pt-20 md:pt-0 lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col">
         
 
-<img class="object-cover object-center rounded" loading="lazy" alt="subscribe to bloocks email list" src="https://cdn.statically.io/img/antoniotrento.github.io/bloocks-test/img/roadmap/bloocks-test.svg">
+<img class="object-cover object-center rounded" loading="lazy" alt="subscribe to bloocks email list" src="https://cdn.statically.io/img/antoniotrento.github.io/bloocks-test/img/img/roadmap/bloocks-test.svg">
 
       </div>
       <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 md:items-start md:text-left md:mb-0 items-center text-center">
@@ -1127,7 +1129,7 @@ Whit Bloocks you will be able to build, quickest as possible, hight quality webs
 
 
 
-<img class="lazy bloocks" loading="lazy" alt="" src="https://cdn.statically.io/img/antoniotrento.github.io/bloocks-test/img/boom-logo-80-80-3375bd561.png" srcset="https://cdn.statically.io/img/antoniotrento.github.io/bloocks-test/img/boom-logo-80-80-3375bd561.png 80w" sizes="(max-width: 600px) 100vw, (max-width: 900px) 80vw, 100px" width="80" height="80">
+<img class="lazy bloocks" loading="lazy" alt="" src="https://cdn.statically.io/img/antoniotrento.github.io/bloocks-test/img/img/boom-logo-80-80-3375bd561.png" srcset="https://cdn.statically.io/img/antoniotrento.github.io/bloocks-test/img/img/boom-logo-80-80-3375bd561.png 80w" sizes="(max-width: 600px) 100vw, (max-width: 900px) 80vw, 100px" width="80" height="80">
 
 
                                       
@@ -1410,6 +1412,32 @@ Whit Bloocks you will be able to build, quickest as possible, hight quality webs
   })
 </script>
 
+
+
+<script src="https://antoniotrento.github.io/bloocks-test/js/pushfolio.min.js"></script>
+
+
+
+<script>
+    var Pushfolio = {
+        popupName: 'popup-global',
+        headerText: 'A message from Antonio',
+        headerAvatar: '/img/avatar.png',
+        messageContentTitle: 'Crea app web Jamstack gratis',
+        messageContent: 'Inizia a creare siti web ed ecommerce sfruttando implementazioni Jamstack e headless con bloocks.</br>',
+        messageCtaText: 'Ottieni Bloocks adesso!',
+        messageCtaURL: '#bloocks-subscribe-popup',
+        messageCtaColor: '#6CB917',
+        messageImageSrc: '/img/popup-image.png',
+        positionX: 'bottom',
+        positionY: 'right',
+        frequency: 'always',
+        mobile: true,
+        delay: '4000'
+    };
+
+    pushFolio.popupModal(Pushfolio);
+</script>
 
 
 

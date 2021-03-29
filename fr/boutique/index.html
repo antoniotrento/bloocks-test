@@ -286,6 +286,8 @@ function redirect(actuallang){
 <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
 
 
+<link rel="stylesheet" type="text/css" href="/css/pushfolio.css"/>
+
     <!--  Emergency inline CSS injection by jekyll engine  -->
 
     
@@ -330,7 +332,7 @@ function redirect(actuallang){
               
               <a href="https://antoniotrento.github.io/bloocks-test/fr" class="flex">
                 <span class="sr-only">Bloocks</span>
-                <img src="https://cdn.statically.io/img/antoniotrento.github.io/bloocks-test/img/main-logo.png" alt="Bloocks logo">
+                <img src="https://cdn.statically.io/img/antoniotrento.github.io/bloocks-test/img/img/main-logo.png" alt="Bloocks logo">
               </a>
               
               
@@ -776,7 +778,7 @@ function redirect(actuallang){
                   <!-- <img class="h-8 w-auto" src="" alt=""> -->
                   
                   <a href="https://antoniotrento.github.io/bloocks-test/fr" class="flex">
-                    <img src="https://cdn.statically.io/img/antoniotrento.github.io/bloocks-test/img/main-logo.png" alt="Bloocks logo">
+                    <img src="https://cdn.statically.io/img/antoniotrento.github.io/bloocks-test/img/img/main-logo.png" alt="Bloocks logo">
                   </a>
                   
                   
@@ -923,9 +925,9 @@ function redirect(actuallang){
 
 
 <picture>
-  <source sizes="(max-width: 600px) 100vw, (max-width: 900px) 80vw, 350px" srcset="https://cdn.statically.io/img/antoniotrento.github.io/bloocks-test/img/products/tshirts/deer/black-350-px-350-2b0e0f3b9.jpg 350w" type="image/jpeg">
-  <source sizes="(max-width: 600px) 100vw, (max-width: 900px) 80vw, 350px" srcset="https://cdn.statically.io/img/antoniotrento.github.io/bloocks-test/img/products/tshirts/deer/black-350-px-350-2b0e0f3b9.jpg 350w" type="image/jpeg">
-  <img class="lazy bloocks w-full object-cover object-center rounded-lg shadow-md" loading="lazy" alt="" src="https://cdn.statically.io/img/antoniotrento.github.io/bloocks-test/img/products/tshirts/deer/black-350-px-350-2b0e0f3b9.jpg" width="350" height="350">
+  <source sizes="(max-width: 600px) 100vw, (max-width: 900px) 80vw, 350px" srcset="https://cdn.statically.io/img/antoniotrento.github.io/bloocks-test/img/img/products/tshirts/deer/black-350-px-350-2b0e0f3b9.jpg 350w" type="image/jpeg">
+  <source sizes="(max-width: 600px) 100vw, (max-width: 900px) 80vw, 350px" srcset="https://cdn.statically.io/img/antoniotrento.github.io/bloocks-test/img/img/products/tshirts/deer/black-350-px-350-2b0e0f3b9.jpg 350w" type="image/jpeg">
+  <img class="lazy bloocks w-full object-cover object-center rounded-lg shadow-md" loading="lazy" alt="" src="https://cdn.statically.io/img/antoniotrento.github.io/bloocks-test/img/img/products/tshirts/deer/black-350-px-350-2b0e0f3b9.jpg" width="350" height="350">
 </picture>
 
 
@@ -1177,7 +1179,7 @@ select.addEventListener('change', () => {
 
 
 
-<img class="lazy bloocks" loading="lazy" alt="" src="https://cdn.statically.io/img/antoniotrento.github.io/bloocks-test/img/boom-logo-80-80-3375bd561.png" srcset="https://cdn.statically.io/img/antoniotrento.github.io/bloocks-test/img/boom-logo-80-80-3375bd561.png 80w" sizes="(max-width: 600px) 100vw, (max-width: 900px) 80vw, 100px" width="80" height="80">
+<img class="lazy bloocks" loading="lazy" alt="" src="https://cdn.statically.io/img/antoniotrento.github.io/bloocks-test/img/img/boom-logo-80-80-3375bd561.png" srcset="https://cdn.statically.io/img/antoniotrento.github.io/bloocks-test/img/img/boom-logo-80-80-3375bd561.png 80w" sizes="(max-width: 600px) 100vw, (max-width: 900px) 80vw, 100px" width="80" height="80">
 
 
                                       
@@ -1461,6 +1463,32 @@ select.addEventListener('change', () => {
   })
 </script>
 
+
+
+<script src="https://antoniotrento.github.io/bloocks-test/js/pushfolio.min.js"></script>
+
+
+
+<script>
+    var Pushfolio = {
+        popupName: 'popup-global',
+        headerText: 'Un message d Antonio',
+        headerAvatar: '/img/avatar.png',
+        messageContentTitle: 'Creez une application Web Jamstack gratuite',
+        messageContent: 'Commencez a creer des sites Web et du commerce Electronique en tirant parti de Jamstack et des implementations sans tete avec des blocs.</br>',
+        messageCtaText: 'Obtenez Bloocks maintenant!',
+        messageCtaURL: '#bloocks-subscribe-popup',
+        messageCtaColor: '#6CB917',
+        messageImageSrc: '/img/popup-image.png',
+        positionX: 'bottom',
+        positionY: 'right',
+        frequency: 'always',
+        mobile: true,
+        delay: '4000'
+    };
+
+    pushFolio.popupModal(Pushfolio);
+</script>
 
 
 
