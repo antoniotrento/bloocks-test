@@ -113,12 +113,12 @@ var fomowidget = {
   
     // Shuffle array
     shuffleArray: function(a) {
-      var proofj, proofx, proofi;
-      for (proofi = a.length; proofi; proofi--) {
-        proofj = Math.floor(Math.random() * proofi);
-        proofx = a[proofi - 1];
-        a[proofi - 1] = a[proofj];
-        a[proofj] = proofx;
+      var j, x, i;
+      for (i = a.length; i; i--) {
+        j = Math.floor(Math.random() * i);
+        x = a[i - 1];
+        a[i - 1] = a[j];
+        a[j] = x;
       }
     }
   };
