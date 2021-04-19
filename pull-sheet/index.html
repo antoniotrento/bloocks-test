@@ -136,6 +136,36 @@
 }</script><script>/*
  Detects the browser language from https://github.com/knuch/js-lang-redirect
 
+ https://phrase.com/blog/posts/detecting-a-users-locale/
+
+ https://www.w3schools.com/tags/ref_country_codes.asp
+
+ https://github.com/marcoscaceres/jsi18n
+
+ https://github.com/fnando/i18n-js
+
+ https://www.sitelike.org/similar/currencylayer.com/
+
+ https://stackoverflow.com/questions/5624173/javascript-number-and-currency-localization
+
+ https://stackoverflow.com/questions/59183982/is-it-possible-to-list-all-known-localized-currencies
+
+ Currency converter
+
+ http://openexchangerates.github.io/money.js/
+
+ http://www.jsonrates.com/
+
+ https://currency.js.org/
+
+ tax calcuation
+
+ https://www.npmjs.com/package/sales-tax
+
+ https://www.google.com/search?client=firefox-b-d&q=currency+and+tax+calculator+javascript
+
+ https://www.npmjs.com/package/calculate-total-cost
+
  ["af", "sq", "ar-SA", "ar-IQ", "ar-EG", "ar-LY", "ar-DZ", "ar-MA", "ar-TN", "ar-OM",
  "ar-YE", "ar-SY", "ar-JO", "ar-LB", "ar-KW", "ar-AE", "ar-BH", "ar-QA", "eu", "bg",
  "be", "ca", "zh-TW", "zh-CN", "zh-HK", "zh-SG", "hr", "cs", "da", "nl", "nl-BE", "en",
@@ -148,7 +178,40 @@
  "es-PE", "es-EC", "es-CL", "es-UY", "es-PY", "es-BO", "es-SV", "es-HN", "es-NI", 
  "es-PR", "sx", "sv", "sv-FI", "th", "ts", "tn", "tr", "uk", "ur", "ve", "vi", "xh",
  "ji", "zu"];
+
+
+
+
+
  */
+ function getBrowserLocales(options = {}) {
+  const defaultOptions = {
+    languageCodeOnly: false,
+  };
+
+  const opt = {
+    ...defaultOptions,
+    ...options,
+  };
+
+  const browserLocales =
+    navigator.languages === undefined
+      ? [navigator.language]
+      : navigator.languages;
+
+  if (!browserLocales) {
+    return undefined;
+  }
+
+  return browserLocales.map(locale => {
+    const trimmedLocale = locale.trim();
+
+    return opt.languageCodeOnly
+      ? trimmedLocale.split(/-|_/)[0]
+      : trimmedLocale;
+  });
+}
+
 var userLang = navigator.language || navigator.userLanguage;
 
 /*
@@ -180,7 +243,7 @@ function redirect(actuallang){
       break;
   }
   window.location.replace(url);
-}</script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w==" crossorigin="anonymous"><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css"><link rel="stylesheet" href="https://cdn.statically.io/gh/antoniotrento/bloocks-test/statically2/assets/css/style.css"><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+}</script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w==" crossorigin="anonymous"><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css"><link rel="stylesheet" href="https://cdn.statically.io/gh/antoniotrento/bloocks-test/statically3/assets/css/style.css"><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
     new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
     j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
@@ -283,4 +346,4 @@ function redirect(actuallang){
 
     }</script><textarea cols="10" rows="5" id="source" style="border: 1px solid #000; width: 100%; height: 350px;"></textarea></main><script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.2.2/lazysizes.min.js" integrity="sha512-TmDwFLhg3UA4ZG0Eb4MIyT1O1Mb+Oww5kFG0uHqXsdbyZz9DcvYQhKpGgNkamAI6h2lGGZq2X8ftOJvF/XjTUg==" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw==" crossorigin="anonymous"></script><script>AOS.init({
     duration: 1200,
-  })</script><script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.8.2/dist/alpine.min.js" defer="defer"></script><script src="https://cdn.statically.io/gh/antoniotrento/bloocks-test/statically2/js/fslightbox.js"></script><script async src="https://socialproof.zaperp.com/pixel/f3phbivfj1g5e000dml9cwlwtzu0fd73"></script></body></html>
+  })</script><script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.8.2/dist/alpine.min.js" defer="defer"></script><script src="https://cdn.statically.io/gh/antoniotrento/bloocks-test/statically3/js/fslightbox.js"></script><script async src="https://socialproof.zaperp.com/pixel/f3phbivfj1g5e000dml9cwlwtzu0fd73"></script></body></html>
