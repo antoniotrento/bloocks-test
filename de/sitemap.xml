@@ -66,7 +66,7 @@
     <url>
       <loc>https://antoniotrento.github.io/bloocks-test/de/404.html</loc>
       
-        <lastmod>2021-04-23T23:20:45+02:00</lastmod>
+        <lastmod>2021-05-01T21:51:59+02:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -83,7 +83,22 @@
     <url>
       <loc>https://antoniotrento.github.io/bloocks-test/de/affnegozien/</loc>
       
-        <lastmod>2021-04-23T23:20:45+02:00</lastmod>
+        <lastmod>2021-05-01T21:51:59+02:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>https://antoniotrento.github.io/bloocks-test/de/js/store/backups/appunticonverter.js</loc>
+      
+        <lastmod>2021-05-01T21:51:59+02:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -98,7 +113,97 @@
     <url>
       <loc>https://antoniotrento.github.io/bloocks-test/de/contact/</loc>
       
-        <lastmod>2021-04-23T23:20:45+02:00</lastmod>
+        <lastmod>2021-05-01T21:51:59+02:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>https://antoniotrento.github.io/bloocks-test/de/js/store/backups/converter%20copy%202.js</loc>
+      
+        <lastmod>2021-05-01T21:51:59+02:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>https://antoniotrento.github.io/bloocks-test/de/js/store/backups/converter%20copy.js</loc>
+      
+        <lastmod>2021-05-01T21:51:59+02:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>https://antoniotrento.github.io/bloocks-test/de/js/store/converter%20copy.js</loc>
+      
+        <lastmod>2021-05-01T21:51:59+02:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>https://antoniotrento.github.io/bloocks-test/de/js/store/converter.js</loc>
+      
+        <lastmod>2021-05-01T21:51:59+02:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>https://antoniotrento.github.io/bloocks-test/de/data/download%20copy.json</loc>
+      
+        <lastmod>2021-05-01T21:51:59+02:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>https://antoniotrento.github.io/bloocks-test/de/data/download.json</loc>
+      
+        <lastmod>2021-05-01T21:51:59+02:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -113,9 +218,9 @@
   
     
     <url>
-      <loc>https://antoniotrento.github.io/bloocks-test/de/blog/</loc>
+      <loc>https://antoniotrento.github.io/bloocks-test/de/pull-sheet/</loc>
       
-        <lastmod>2021-04-23T23:20:45+02:00</lastmod>
+        <lastmod>2021-05-01T21:51:59+02:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -130,7 +235,22 @@
     <url>
       <loc>https://antoniotrento.github.io/bloocks-test/de/</loc>
       
-        <lastmod>2021-04-23T23:20:45+02:00</lastmod>
+        <lastmod>2021-05-01T21:51:59+02:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>https://antoniotrento.github.io/bloocks-test/de/blog/</loc>
+      
+        <lastmod>2021-05-01T21:51:59+02:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -145,7 +265,7 @@
     <url>
       <loc>https://antoniotrento.github.io/bloocks-test/de/storepg/</loc>
       
-        <lastmod>2021-04-23T23:20:45+02:00</lastmod>
+        <lastmod>2021-05-01T21:51:59+02:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -158,9 +278,9 @@
   
     
     <url>
-      <loc>https://antoniotrento.github.io/bloocks-test/de/pull-sheet/</loc>
+      <loc>https://antoniotrento.github.io/bloocks-test/de/js/lang/lang.js</loc>
       
-        <lastmod>2021-04-23T23:20:45+02:00</lastmod>
+        <lastmod>2021-05-01T21:51:59+02:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -175,7 +295,7 @@
     <url>
       <loc>https://antoniotrento.github.io/bloocks-test/de/maschien/</loc>
       
-        <lastmod>2021-04-23T23:20:45+02:00</lastmod>
+        <lastmod>2021-05-01T21:51:59+02:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -190,7 +310,7 @@
     <url>
       <loc>https://antoniotrento.github.io/bloocks-test/de/plans/</loc>
       
-        <lastmod>2021-04-23T23:20:45+02:00</lastmod>
+        <lastmod>2021-05-01T21:51:59+02:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -205,7 +325,7 @@
     <url>
       <loc>https://antoniotrento.github.io/bloocks-test/de/proof/</loc>
       
-        <lastmod>2021-04-23T23:20:45+02:00</lastmod>
+        <lastmod>2021-05-01T21:51:59+02:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -220,7 +340,7 @@
     <url>
       <loc>https://antoniotrento.github.io/bloocks-test/de/roadmap/</loc>
       
-        <lastmod>2021-04-23T23:20:45+02:00</lastmod>
+        <lastmod>2021-05-01T21:51:59+02:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -237,7 +357,7 @@
     <url>
       <loc>https://antoniotrento.github.io/bloocks-test/de/css/screen.css</loc>
       
-        <lastmod>2021-04-23T23:20:45+02:00</lastmod>
+        <lastmod>2021-05-01T21:51:59+02:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -256,7 +376,7 @@
     <url>
       <loc>https://antoniotrento.github.io/bloocks-test/de/negozien/</loc>
       
-        <lastmod>2021-04-23T23:20:45+02:00</lastmod>
+        <lastmod>2021-05-01T21:51:59+02:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -271,7 +391,7 @@
     <url>
       <loc>https://antoniotrento.github.io/bloocks-test/de/stripe/</loc>
       
-        <lastmod>2021-04-23T23:20:45+02:00</lastmod>
+        <lastmod>2021-05-01T21:51:59+02:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -286,7 +406,22 @@
     <url>
       <loc>https://antoniotrento.github.io/bloocks-test/de/subscribe/</loc>
       
-        <lastmod>2021-04-23T23:20:45+02:00</lastmod>
+        <lastmod>2021-05-01T21:51:59+02:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>https://antoniotrento.github.io/bloocks-test/de/swipertest/</loc>
+      
+        <lastmod>2021-05-01T21:51:59+02:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -301,7 +436,7 @@
     <url>
       <loc>https://antoniotrento.github.io/bloocks-test/de/terms-and-conditions/</loc>
       
-        <lastmod>2021-04-23T23:20:45+02:00</lastmod>
+        <lastmod>2021-05-01T21:51:59+02:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -316,7 +451,7 @@
     <url>
       <loc>https://antoniotrento.github.io/bloocks-test/de/aushfart/</loc>
       
-        <lastmod>2021-04-23T23:20:45+02:00</lastmod>
+        <lastmod>2021-05-01T21:51:59+02:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -331,7 +466,7 @@
     <url>
       <loc>https://antoniotrento.github.io/bloocks-test/de/thank-you-formcake/</loc>
       
-        <lastmod>2021-04-23T23:20:45+02:00</lastmod>
+        <lastmod>2021-05-01T21:51:59+02:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -344,9 +479,9 @@
   
     
     <url>
-      <loc>https://antoniotrento.github.io/bloocks-test/de/what-inside/</loc>
+      <loc>https://antoniotrento.github.io/bloocks-test/de/js/store/backups/working.converter.js</loc>
       
-        <lastmod>2021-04-23T23:20:45+02:00</lastmod>
+        <lastmod>2021-05-01T21:51:59+02:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -361,7 +496,7 @@
     <url>
       <loc>https://antoniotrento.github.io/bloocks-test/de/redirects.json</loc>
       
-        <lastmod>2021-04-23T23:20:45+02:00</lastmod>
+        <lastmod>2021-05-01T21:51:59+02:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -376,7 +511,7 @@
     <url>
       <loc>https://antoniotrento.github.io/bloocks-test/de/blog/page2/</loc>
       
-        <lastmod>2021-04-23T23:20:45+02:00</lastmod>
+        <lastmod>2021-05-01T21:51:59+02:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -391,7 +526,7 @@
     <url>
       <loc>https://antoniotrento.github.io/bloocks-test/de/css/screen.css.map</loc>
       
-        <lastmod>2021-04-23T23:20:45+02:00</lastmod>
+        <lastmod>2021-05-01T21:51:59+02:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -407,7 +542,7 @@
     <url>
       <loc>https://antoniotrento.github.io/bloocks-test/de/produkten/deer/</loc>
       
-        <lastmod>2021-04-23T23:20:45+02:00</lastmod>
+        <lastmod>2021-05-01T21:51:59+02:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -422,7 +557,7 @@
     <url>
       <loc>https://antoniotrento.github.io/bloocks-test/de/produkten/elephant/</loc>
       
-        <lastmod>2021-04-23T23:20:45+02:00</lastmod>
+        <lastmod>2021-05-01T21:51:59+02:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -437,7 +572,7 @@
     <url>
       <loc>https://antoniotrento.github.io/bloocks-test/de/produkten/giraffe/</loc>
       
-        <lastmod>2021-04-23T23:20:45+02:00</lastmod>
+        <lastmod>2021-05-01T21:51:59+02:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -452,7 +587,7 @@
     <url>
       <loc>https://antoniotrento.github.io/bloocks-test/de/produkten/hog/</loc>
       
-        <lastmod>2021-04-23T23:20:45+02:00</lastmod>
+        <lastmod>2021-05-01T21:51:59+02:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -467,7 +602,7 @@
     <url>
       <loc>https://antoniotrento.github.io/bloocks-test/de/produkten/lion/</loc>
       
-        <lastmod>2021-04-23T23:20:45+02:00</lastmod>
+        <lastmod>2021-05-01T21:51:59+02:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -482,7 +617,7 @@
     <url>
       <loc>https://antoniotrento.github.io/bloocks-test/de/produkten/tiger/</loc>
       
-        <lastmod>2021-04-23T23:20:45+02:00</lastmod>
+        <lastmod>2021-05-01T21:51:59+02:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
