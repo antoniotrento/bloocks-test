@@ -151,7 +151,7 @@ async function getlanguage() {
             if (item.includes('-')){
               if (i==0){
                 language = item.split('-')[0];
-                country = item.split('-')[1];
+                country = item.split('-')[1].toUpperCase();
                 locale = item;
                 i=i+1;
               }
