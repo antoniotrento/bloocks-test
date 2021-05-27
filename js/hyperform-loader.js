@@ -1,1 +1,0 @@
-hyperform(window);
